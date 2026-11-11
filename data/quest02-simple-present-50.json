@@ -1,0 +1,509 @@
+{
+  "quest_id": "Q02",
+  "title": "일반동사 현재형 마스터",
+  "level": "elementary",
+  "source_basis": "Quest 2: simple present affirmative, third-person singular, do/does negatives and questions; original child-friendly sentences",
+  "items": [
+    {
+      "id": "Q02-001",
+      "quest": "Q02",
+      "ko": "나는 아침마다 우유를 마셔.",
+      "en": "I drink milk every morning.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "affirmative",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q02-002",
+      "quest": "Q02",
+      "ko": "나는 학교에 걸어가.",
+      "en": "I walk to school.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "affirmative",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q02-003",
+      "quest": "Q02",
+      "ko": "너는 그림을 잘 그려.",
+      "en": "You draw pictures well.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "affirmative",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q02-004",
+      "quest": "Q02",
+      "ko": "우리는 점심을 학교에서 먹어.",
+      "en": "We eat lunch at school.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "affirmative",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q02-005",
+      "quest": "Q02",
+      "ko": "우리는 방과 후에 축구를 해.",
+      "en": "We play soccer after school.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "affirmative",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q02-006",
+      "quest": "Q02",
+      "ko": "그들은 매일 책을 읽어.",
+      "en": "They read books every day.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "affirmative",
+      "subject_group": "they"
+    },
+    {
+      "id": "Q02-007",
+      "quest": "Q02",
+      "ko": "내 친구들은 자전거를 타.",
+      "en": "My friends ride bikes.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "affirmative",
+      "subject_group": "plural"
+    },
+    {
+      "id": "Q02-008",
+      "quest": "Q02",
+      "ko": "나는 주말에 수영을 해.",
+      "en": "I swim on weekends.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "affirmative",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q02-009",
+      "quest": "Q02",
+      "ko": "너는 영어 노래를 불러.",
+      "en": "You sing English songs.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "affirmative",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q02-010",
+      "quest": "Q02",
+      "ko": "우리는 토요일에 영화를 봐.",
+      "en": "We watch movies on Saturdays.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "affirmative",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q02-011",
+      "quest": "Q02",
+      "ko": "그는 아침마다 달려.",
+      "en": "He runs every morning.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "third_person_affirmative",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q02-012",
+      "quest": "Q02",
+      "ko": "그녀는 고양이를 좋아해.",
+      "en": "She likes cats.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "third_person_affirmative",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q02-013",
+      "quest": "Q02",
+      "ko": "우리 아빠는 커피를 마셔.",
+      "en": "My dad drinks coffee.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "third_person_affirmative",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-014",
+      "quest": "Q02",
+      "ko": "우리 엄마는 책을 많이 읽어.",
+      "en": "My mom reads a lot of books.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "third_person_affirmative",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-015",
+      "quest": "Q02",
+      "ko": "내 남동생은 게임을 해.",
+      "en": "My little brother plays games.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "third_person_affirmative",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-016",
+      "quest": "Q02",
+      "ko": "그는 매일 숙제를 해.",
+      "en": "He does his homework every day.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "third_person_affirmative",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q02-017",
+      "quest": "Q02",
+      "ko": "그녀는 학교에 버스를 타고 가.",
+      "en": "She takes the bus to school.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "third_person_affirmative",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q02-018",
+      "quest": "Q02",
+      "ko": "내 친구는 영어를 공부해.",
+      "en": "My friend studies English.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "third_person_affirmative",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-019",
+      "quest": "Q02",
+      "ko": "그 강아지는 빨리 달려.",
+      "en": "The dog runs fast.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "third_person_affirmative",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-020",
+      "quest": "Q02",
+      "ko": "그는 매일 이를 닦아.",
+      "en": "He brushes his teeth every day.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "third_person_affirmative",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q02-021",
+      "quest": "Q02",
+      "ko": "나는 매운 음식을 먹지 않아.",
+      "en": "I don't eat spicy food.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_do",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q02-022",
+      "quest": "Q02",
+      "ko": "나는 밤늦게 TV를 보지 않아.",
+      "en": "I don't watch TV late at night.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_do",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q02-023",
+      "quest": "Q02",
+      "ko": "너는 커피를 마시지 않아.",
+      "en": "You don't drink coffee.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_do",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q02-024",
+      "quest": "Q02",
+      "ko": "우리는 학교에서 게임을 하지 않아.",
+      "en": "We don't play games at school.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_do",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q02-025",
+      "quest": "Q02",
+      "ko": "그들은 일요일에 학교에 가지 않아.",
+      "en": "They don't go to school on Sundays.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_do",
+      "subject_group": "they"
+    },
+    {
+      "id": "Q02-026",
+      "quest": "Q02",
+      "ko": "나는 뱀을 좋아하지 않아.",
+      "en": "I don't like snakes.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_do",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q02-027",
+      "quest": "Q02",
+      "ko": "우리는 매일 피자를 먹지 않아.",
+      "en": "We don't eat pizza every day.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_do",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q02-028",
+      "quest": "Q02",
+      "ko": "내 친구들은 아침에 늦게 일어나지 않아.",
+      "en": "My friends don't get up late in the morning.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_do",
+      "subject_group": "plural"
+    },
+    {
+      "id": "Q02-029",
+      "quest": "Q02",
+      "ko": "그는 생선을 먹지 않아.",
+      "en": "He doesn't eat fish.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_does",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q02-030",
+      "quest": "Q02",
+      "ko": "그녀는 축구를 하지 않아.",
+      "en": "She doesn't play soccer.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_does",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q02-031",
+      "quest": "Q02",
+      "ko": "우리 아빠는 게임을 하지 않아.",
+      "en": "My dad doesn't play games.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_does",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-032",
+      "quest": "Q02",
+      "ko": "내 친구는 우유를 마시지 않아.",
+      "en": "My friend doesn't drink milk.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_does",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-033",
+      "quest": "Q02",
+      "ko": "그는 학교에 걸어가지 않아.",
+      "en": "He doesn't walk to school.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_does",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q02-034",
+      "quest": "Q02",
+      "ko": "그녀는 고양이를 키우지 않아.",
+      "en": "She doesn't have a cat.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_does",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q02-035",
+      "quest": "Q02",
+      "ko": "그 강아지는 당근을 먹지 않아.",
+      "en": "The dog doesn't eat carrots.",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "negative_does",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-036",
+      "quest": "Q02",
+      "ko": "너는 수영을 해?",
+      "en": "Do you swim?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_do",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q02-037",
+      "quest": "Q02",
+      "ko": "너는 피자를 좋아해?",
+      "en": "Do you like pizza?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_do",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q02-038",
+      "quest": "Q02",
+      "ko": "너는 매일 책을 읽어?",
+      "en": "Do you read books every day?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_do",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q02-039",
+      "quest": "Q02",
+      "ko": "너는 자전거를 타?",
+      "en": "Do you ride a bike?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_do",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q02-040",
+      "quest": "Q02",
+      "ko": "그들은 학교에 걸어가?",
+      "en": "Do they walk to school?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_do",
+      "subject_group": "they"
+    },
+    {
+      "id": "Q02-041",
+      "quest": "Q02",
+      "ko": "우리는 오늘 숙제가 있어?",
+      "en": "Do we have homework today?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_do",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q02-042",
+      "quest": "Q02",
+      "ko": "네 친구들은 농구를 해?",
+      "en": "Do your friends play basketball?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_do",
+      "subject_group": "plural"
+    },
+    {
+      "id": "Q02-043",
+      "quest": "Q02",
+      "ko": "그는 영어를 공부해?",
+      "en": "Does he study English?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_does",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q02-044",
+      "quest": "Q02",
+      "ko": "그녀는 자전거가 있어?",
+      "en": "Does she have a bike?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_does",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q02-045",
+      "quest": "Q02",
+      "ko": "네 아빠는 요리를 해?",
+      "en": "Does your dad cook?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_does",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-046",
+      "quest": "Q02",
+      "ko": "네 엄마는 커피를 좋아해?",
+      "en": "Does your mom like coffee?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_does",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-047",
+      "quest": "Q02",
+      "ko": "그는 매일 숙제를 해?",
+      "en": "Does he do his homework every day?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_does",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q02-048",
+      "quest": "Q02",
+      "ko": "그녀는 학교에 버스를 타고 가?",
+      "en": "Does she take the bus to school?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_does",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q02-049",
+      "quest": "Q02",
+      "ko": "네 친구는 피아노를 쳐?",
+      "en": "Does your friend play the piano?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_does",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q02-050",
+      "quest": "Q02",
+      "ko": "그 강아지는 빨리 달려?",
+      "en": "Does the dog run fast?",
+      "category": "beginner",
+      "grammar": "simple_present",
+      "sentence_type": "question_does",
+      "subject_group": "singular"
+    }
+  ]
+}
+

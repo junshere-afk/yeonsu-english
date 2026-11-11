@@ -1,0 +1,508 @@
+{
+  "quest_id": "Q01",
+  "title": "be동사 현재형 마스터",
+  "level": "elementary",
+  "source_basis": "S1 Day 1: be present affirmative negative question full answers; sentences newly authored for children",
+  "items": [
+    {
+      "id": "Q01-001",
+      "quest": "Q01",
+      "ko": "나는 배고파.",
+      "en": "I am hungry.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q01-002",
+      "quest": "Q01",
+      "ko": "나는 학생이야.",
+      "en": "I am a student.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q01-003",
+      "quest": "Q01",
+      "ko": "너는 친절해.",
+      "en": "You are kind.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q01-004",
+      "quest": "Q01",
+      "ko": "너는 내 친구야.",
+      "en": "You are my friend.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q01-005",
+      "quest": "Q01",
+      "ko": "그는 키가 커.",
+      "en": "He is tall.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q01-006",
+      "quest": "Q01",
+      "ko": "그는 내 형이야.",
+      "en": "He is my older brother.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q01-007",
+      "quest": "Q01",
+      "ko": "그녀는 행복해.",
+      "en": "She is happy.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q01-008",
+      "quest": "Q01",
+      "ko": "그녀는 우리 선생님이야.",
+      "en": "She is our teacher.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q01-009",
+      "quest": "Q01",
+      "ko": "이건 내 책이야.",
+      "en": "This is my book.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "this"
+    },
+    {
+      "id": "Q01-010",
+      "quest": "Q01",
+      "ko": "그것은 빨간색이야.",
+      "en": "It is red.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "it"
+    },
+    {
+      "id": "Q01-011",
+      "quest": "Q01",
+      "ko": "우리는 준비됐어.",
+      "en": "We are ready.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q01-012",
+      "quest": "Q01",
+      "ko": "우리는 같은 반이야.",
+      "en": "We are in the same class.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q01-013",
+      "quest": "Q01",
+      "ko": "그들은 내 친구들이야.",
+      "en": "They are my friends.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "they"
+    },
+    {
+      "id": "Q01-014",
+      "quest": "Q01",
+      "ko": "그 아이들은 운동장에 있어.",
+      "en": "The kids are on the playground.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "plural"
+    },
+    {
+      "id": "Q01-015",
+      "quest": "Q01",
+      "ko": "내 가방은 무거워.",
+      "en": "My bag is heavy.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "affirmative",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q01-016",
+      "quest": "Q01",
+      "ko": "나는 피곤하지 않아.",
+      "en": "I am not tired.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "negative",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q01-017",
+      "quest": "Q01",
+      "ko": "나는 화나 있지 않아.",
+      "en": "I am not angry.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "negative",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q01-018",
+      "quest": "Q01",
+      "ko": "너는 지각한 상태가 아니야.",
+      "en": "You are not late.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "negative",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q01-019",
+      "quest": "Q01",
+      "ko": "그는 아프지 않아.",
+      "en": "He is not sick.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "negative",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q01-020",
+      "quest": "Q01",
+      "ko": "그녀는 집에 없어.",
+      "en": "She is not at home.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "negative",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q01-021",
+      "quest": "Q01",
+      "ko": "이건 내 연필이 아니야.",
+      "en": "This is not my pencil.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "negative",
+      "subject_group": "this"
+    },
+    {
+      "id": "Q01-022",
+      "quest": "Q01",
+      "ko": "그것은 어렵지 않아.",
+      "en": "It is not hard.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "negative",
+      "subject_group": "it"
+    },
+    {
+      "id": "Q01-023",
+      "quest": "Q01",
+      "ko": "우리는 바쁘지 않아.",
+      "en": "We are not busy.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "negative",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q01-024",
+      "quest": "Q01",
+      "ko": "그들은 교실에 없어.",
+      "en": "They are not in the classroom.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "negative",
+      "subject_group": "they"
+    },
+    {
+      "id": "Q01-025",
+      "quest": "Q01",
+      "ko": "내 신발은 새것이 아니야.",
+      "en": "My shoes are not new.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "negative",
+      "subject_group": "plural"
+    },
+    {
+      "id": "Q01-026",
+      "quest": "Q01",
+      "ko": "너는 배고파?",
+      "en": "Are you hungry?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q01-027",
+      "quest": "Q01",
+      "ko": "너는 지금 바빠?",
+      "en": "Are you busy now?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "you"
+    },
+    {
+      "id": "Q01-028",
+      "quest": "Q01",
+      "ko": "내가 지각한 거야?",
+      "en": "Am I late?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q01-029",
+      "quest": "Q01",
+      "ko": "그는 네 친구야?",
+      "en": "Is he your friend?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q01-030",
+      "quest": "Q01",
+      "ko": "그는 학교에 있어?",
+      "en": "Is he at school?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q01-031",
+      "quest": "Q01",
+      "ko": "그녀는 행복해?",
+      "en": "Is she happy?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q01-032",
+      "quest": "Q01",
+      "ko": "네 엄마는 집에 계셔?",
+      "en": "Is your mom at home?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q01-033",
+      "quest": "Q01",
+      "ko": "이거 네 가방이야?",
+      "en": "Is this your bag?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "this"
+    },
+    {
+      "id": "Q01-034",
+      "quest": "Q01",
+      "ko": "그것은 네 자전거야?",
+      "en": "Is it your bike?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "it"
+    },
+    {
+      "id": "Q01-035",
+      "quest": "Q01",
+      "ko": "우리는 준비됐어?",
+      "en": "Are we ready?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q01-036",
+      "quest": "Q01",
+      "ko": "우리는 같은 팀이야?",
+      "en": "Are we on the same team?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q01-037",
+      "quest": "Q01",
+      "ko": "그들은 학생이야?",
+      "en": "Are they students?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "they"
+    },
+    {
+      "id": "Q01-038",
+      "quest": "Q01",
+      "ko": "네 친구들은 여기 있어?",
+      "en": "Are your friends here?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "plural"
+    },
+    {
+      "id": "Q01-039",
+      "quest": "Q01",
+      "ko": "그 책은 재미있어?",
+      "en": "Is the book fun?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "singular"
+    },
+    {
+      "id": "Q01-040",
+      "quest": "Q01",
+      "ko": "네 양말은 깨끗해?",
+      "en": "Are your socks clean?",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "question",
+      "subject_group": "plural"
+    },
+    {
+      "id": "Q01-041",
+      "quest": "Q01",
+      "ko": "응, 나는 배고파.",
+      "en": "Yes, I am hungry.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "full_answer_positive",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q01-042",
+      "quest": "Q01",
+      "ko": "아니, 나는 배고프지 않아.",
+      "en": "No, I am not hungry.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "full_answer_negative",
+      "subject_group": "I"
+    },
+    {
+      "id": "Q01-043",
+      "quest": "Q01",
+      "ko": "응, 그는 내 친구야.",
+      "en": "Yes, he is my friend.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "full_answer_positive",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q01-044",
+      "quest": "Q01",
+      "ko": "아니, 그는 내 친구가 아니야.",
+      "en": "No, he is not my friend.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "full_answer_negative",
+      "subject_group": "he"
+    },
+    {
+      "id": "Q01-045",
+      "quest": "Q01",
+      "ko": "응, 그녀는 집에 있어.",
+      "en": "Yes, she is at home.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "full_answer_positive",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q01-046",
+      "quest": "Q01",
+      "ko": "아니, 그녀는 집에 없어.",
+      "en": "No, she is not at home.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "full_answer_negative",
+      "subject_group": "she"
+    },
+    {
+      "id": "Q01-047",
+      "quest": "Q01",
+      "ko": "응, 우리는 준비됐어.",
+      "en": "Yes, we are ready.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "full_answer_positive",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q01-048",
+      "quest": "Q01",
+      "ko": "아니, 우리는 준비되지 않았어.",
+      "en": "No, we are not ready.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "full_answer_negative",
+      "subject_group": "we"
+    },
+    {
+      "id": "Q01-049",
+      "quest": "Q01",
+      "ko": "응, 그들은 학생이야.",
+      "en": "Yes, they are students.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "full_answer_positive",
+      "subject_group": "they"
+    },
+    {
+      "id": "Q01-050",
+      "quest": "Q01",
+      "ko": "아니, 그들은 학생이 아니야.",
+      "en": "No, they are not students.",
+      "category": "beginner",
+      "grammar": "be_present",
+      "sentence_type": "full_answer_negative",
+      "subject_group": "they"
+    }
+  ]
+}

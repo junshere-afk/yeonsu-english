@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#3056d3" />
+  <title>Speed Speaking</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>.countdown-overlay{position:absolute;inset:0;z-index:5;display:grid;place-items:center;border-radius:30px;background:#dff7ffed}.countdown-overlay span{display:block;width:100%;text-align:center;font-size:clamp(58px,16vw,112px);font-weight:900;color:#2d78da;text-shadow:0 5px 0 #fff;animation:countPop .5s ease-in-out}.countdown-overlay.hidden{display:none}@keyframes countPop{50%{transform:scale(1.16)}}#sound-btn{margin-top:10px}</style>
+  <style>
+    .answer-card{padding:18px 19px;margin-top:18px;background:#fff}
+    .answer-card>span{display:block;font-size:14px;color:#4e88a2;font-weight:900}
+    .answer-help{margin:5px 0 11px;color:#607d91;font-size:13px;font-weight:700}
+    #answer-input{display:block;width:100%;min-height:56px;resize:vertical;border:2px solid #b9dff0;border-radius:14px;padding:11px 15px;background:#faffff;color:#253b59;font:700 18px/1.45 "Noto Sans KR",Inter,Arial,sans-serif;outline:none}
+    #answer-input:focus{border-color:#60a9e8;box-shadow:0 0 0 4px #bfeaff80}
+    .quest-subtitle{margin:-6px 0 18px;color:#5d7d94;font-size:14px;font-weight:800}
+    .quest-status[hidden],#support-note[hidden]{display:none!important}
+    .prompt-card h2{font-size:clamp(36px,7vw,58px);line-height:1.22;font-weight:950}
+    .voice-settings{margin-top:14px;border:1px solid #d9e9f2;border-radius:13px;background:#f9fdff}
+    .voice-settings summary{padding:10px 14px;color:#50728a;font-size:13px;font-weight:800;cursor:pointer}
+    .voice-settings[open] summary{border-bottom:1px solid #d9e9f2}
+    .voice-settings .voice-controls{padding:0 14px 13px}
+    .action-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+    .action-row button{min-height:58px;font-size:17px}
+    .session-actions.minor-actions{justify-content:center;gap:8px;margin-top:12px}
+    .session-actions.minor-actions button{flex:0 1 132px;min-height:38px;padding:8px 12px;font-size:13px}
+    .quest-options{display:grid;gap:8px;padding:0 12px 12px}
+    .quest-select{border:2px solid #dbeaf3;border-radius:12px;padding:10px 12px;background:#fff;color:#446882;text-align:left;font-weight:800;cursor:pointer}
+    .quest-select[aria-pressed="true"]{border-color:#70cfad;background:#eafbf3;color:#187755}
+    @media (max-width:560px){.prompt-card h2{font-size:clamp(32px,10vw,46px)}.action-row button{font-size:15px}.session-actions.minor-actions button{flex:1}}
+    .recognition-note{margin:9px 0 0!important;color:#7394a7;font-size:12px!important;font-weight:700}
+    #mic-btn.listening{color:#fff;background:linear-gradient(145deg,#f36d64,#d93936);box-shadow:0 3px 0 #aa2828,0 0 0 0 #e84d4755;animation:recordPulse 1s ease-in-out infinite}
+    .recording-panel{display:grid;gap:7px;max-width:350px;margin:12px auto 0;padding:11px 14px;border:2px solid #ffd4d0;border-radius:16px;background:#fff8f7;color:#a63f38;transition:.18s}.recording-panel[hidden]{display:none}.recording-label{font-size:14px;font-weight:900}.recording-label:before{content:"●";margin-right:7px;color:#e34a43;animation:recordBlink 1s steps(2,end) infinite}.recording-time{font-size:13px;font-weight:900;color:#7d4a49}.recording-progress{height:7px;overflow:hidden;border-radius:99px;background:#f5d9d6}.recording-progress div{width:100%;height:100%;border-radius:inherit;background:linear-gradient(90deg,#f37569,#e13f39);transition:width .1s linear}.recording-help{margin:0!important;font-size:12px!important;font-weight:800!important;color:#9b615e!important}.rerecord-note{margin:9px 0 0!important;color:#a7633a!important;font-size:12px!important;font-weight:800!important}@keyframes recordBlink{50%{opacity:.3}}@keyframes recordPulse{50%{transform:scale(1.045);box-shadow:0 3px 0 #aa2828,0 0 0 12px #e84d4730}}
+    .mistake-title{display:block!important;white-space:nowrap;font-size:16px!important;font-weight:700!important}.mistake-title span{margin-left:8px;color:#a06928;font-size:16px!important;font-weight:700!important}.answer-diff{margin-top:9px;text-align:left}.answer-diff p{margin:0;line-height:1.55}.answer-diff b{display:block;margin:0 0 3px;color:#75551b;font-size:14px!important;line-height:1.2}.answer-diff .word-wrong,.answer-diff .word-match{font-size:26px!important;font-weight:700!important}.answer-diff .word-wrong{color:#d83737;text-decoration:underline;text-decoration-thickness:3px;text-decoration-color:#efaaa5;text-underline-offset:4px}.answer-diff .word-match{color:#28364e}
+    .mission-hero{display:flex;align-items:center;gap:13px;position:relative;overflow:hidden;margin:19px 0 14px;padding:16px 17px;border:2px solid #b9efd8;border-radius:22px;background:linear-gradient(135deg,#dffff1,#e5f7ff)}
+    .mission-hero:after{content:"✦  ✦  ✦";position:absolute;right:-3px;top:3px;color:#ffd45c;font-size:13px;letter-spacing:7px;transform:rotate(12deg)}
+    .mission-fox{position:relative;display:grid;place-items:center;flex:0 0 58px;height:58px;border-radius:19px;background:#fff1a5;font-size:35px;box-shadow:0 4px 0 #edc85a}
+    .mission-fox i{position:absolute;right:-5px;top:-10px;color:#f2ad29;font-size:16px;font-style:normal}
+    .mission-copy{min-width:0;display:grid;gap:2px}.mission-label{font-size:10px;font-weight:900;letter-spacing:.12em;color:#44987a}.mission-copy strong{font-size:17px;color:#20614b}.mission-copy p{margin:0;font-size:12px;font-weight:700;color:#568276}
+    .mission-badge{position:relative;z-index:1;margin-left:auto;display:grid;place-items:center;flex:0 0 52px;height:52px;border-radius:50%;background:#ffcf55;color:#734a00;box-shadow:0 4px 0 #e9ad23}.mission-badge b{font-size:21px;line-height:19px}.mission-badge span{font-size:10px;font-weight:900}
+    @media(max-width:560px){#answer-input{min-height:56px;font-size:17px}.mission-hero{padding:14px 12px;gap:10px}.mission-copy strong{font-size:15px}.mission-copy p{font-size:11px}.mission-fox{flex-basis:50px;height:50px;font-size:30px}.mission-badge{flex-basis:47px;height:47px}}
+  </style>
+</head>
+<body>
+  <main class="app-shell">
+    <header><div class="brand"><span class="brand-mark" aria-hidden="true">🦊</span><div><h1>Speed Speaking</h1><p>말할수록 레벨 업! 영어 퀘스트</p></div><span class="header-stars" aria-hidden="true">✦ ✦</span></div></header>
+
+    <section id="setup-view" class="panel setup">
+      <div class="eyebrow">GRAMMAR QUEST</div>
+      <h2 id="quest-title">Quest 1 — I AM READY!</h2>
+      <p id="quest-subtitle" class="quest-subtitle">be동사 현재형</p>
+      <div class="mission-hero"><div class="mission-fox" aria-hidden="true">🦊<i>✦</i></div><div class="mission-copy"><span class="mission-label">TODAY'S MISSION</span><strong>영어로 크게 말해 보자!</strong><p>여우 대장과 함께 15문장을 도전해요.</p></div><div class="mission-badge"><b>15</b><span>문장</span></div></div>
+      <div class="quest-status" hidden><strong>학습 진도</strong><span>진도 기록 준비 중</span></div>
+      <button class="primary start" id="start-btn">퀘스트 시작! <span>→</span></button><button id="sound-btn" class="link-button" hidden>🔊 사운드 ON</button>
+      <button class="link-button" id="review-btn">한 번 더 도전!</button>
+      <details class="menu-options"><summary>다른 퀘스트 선택</summary><div class="quest-options"><button type="button" class="quest-select" data-quest-select="Q01">Quest 1 · be동사 현재형</button><button type="button" class="quest-select" data-quest-select="Q02">Quest 2 · 일반동사 현재형</button></div></details>
+      <details class="menu-options"><summary>자유 연습</summary><p>기존 일상 문장 140개에서 15문장을 연습합니다.</p><button id="free-practice-btn" class="secondary">자유 연습 시작</button></details>
+      <p id="support-note" class="support-note" hidden></p>
+    </section>
+
+    <section id="practice-view" class="panel practice hidden" aria-live="polite"><div id="countdown-overlay" class="countdown-overlay hidden"><span id="countdown-text">Ready?</span></div>
+      <div class="progress-row"><span class="quest-counter"><b aria-hidden="true">★</b><span id="question-counter">1 / 15</span></span><span id="difficulty-badge" class="badge"></span></div>
+      <div class="progress"><div id="progress-bar"></div></div>
+      <div class="prompt-card"><span class="prompt-star" aria-hidden="true">✦</span><p class="prompt-label">아래 문장을 영어로 말해 보세요</p><h2 id="korean-prompt"></h2></div>
+      <div class="transcript-card answer-card"><form id="answer-form"><input id="answer-input" type="text" autocomplete="off" enterkeyhint="done" placeholder="말하거나 영어로 입력하세요" aria-label="영어 답변" /><button type="submit" hidden aria-hidden="true" tabindex="-1"></button></form><p id="transcript" hidden></p><p id="recognition-status" class="recognition-note">입력 후 Enter 또는 확인 버튼을 눌러요.</p></div>
+      <div id="feedback" class="feedback hidden"></div>
+      <details class="voice-settings"><summary>⚙ 음성 설정</summary><div class="voice-controls"><label>영어 음성 <select id="voice-select"><option value="">기본 영어 음성</option></select></label><label>속도 <select id="rate-select"><option value="0.8">0.8배</option><option value="1" selected>1.0배</option></select></label></div></details>
+      <div class="action-row">
+        <button id="mic-btn" class="secondary">🎤 말하기 (R)</button>
+        <button id="submit-btn" class="secondary">확인 (Enter)</button>
+        <button id="next-btn" class="primary" hidden>다음 문제</button>
+      </div>
+      <div id="recording-panel" class="recording-panel" hidden aria-live="polite"><div class="recording-label">듣고 있어요! 영어로 말해 보세요</div><div class="recording-time"><span id="recording-seconds">15</span>초 남음</div><div class="recording-progress"><div id="recording-progress-bar"></div></div><p class="recording-help">녹음 중에는 다시 누르지 않아도 돼요.</p></div>
+      <p id="rerecord-note" class="recognition-note rerecord-note">다시 녹음하면 문장 전체를 처음부터 말해야 해요!</p>
+      <button id="retry-btn" hidden aria-hidden="true"></button>
+      <div class="session-actions minor-actions"><button id="pause-btn" class="secondary">일시정지</button><button id="end-btn" class="danger">학습 종료</button></div>
+      <details id="dev-tools" class="dev-tools"><summary>개발용 인식 결과 입력</summary><div><input id="dev-input" type="text" placeholder="예: I am ready."><button id="dev-submit">채점</button></div></details>
+    </section>
+
+    <section id="result-view" class="panel results hidden">
+      <div class="completion-stars" aria-hidden="true">✦ ★ ✦</div><div class="eyebrow">QUEST COMPLETE</div><h2>오늘의 퀘스트 완료!</h2><p class="completion-message">멋진 도전이었어. 다음에도 같이 해 보자!</p>
+      <div class="score-circle"><strong id="score-percent">0%</strong><span>정답률</span></div>
+      <div class="stat-grid"><div><strong id="result-total">0</strong><span>총 문제</span></div><div><strong id="result-correct">0</strong><span>정답</span></div><div><strong id="result-incorrect">0</strong><span>오답</span></div><div><strong id="result-skipped">0</strong><span>건너뛰기</span></div><div><strong id="result-unresolved">0</strong><span>미확정</span></div><div><strong id="result-time">0초</strong><span>평균 응답 시간</span></div></div>
+      <div id="result-review" class="result-review"></div>
+      <button id="ai-copy-btn" class="secondary">AI 채점용 복사</button>
+      <button id="restart-btn" class="primary">다시 학습하기</button>
+    </section>
+  </main>
+  <script type="module" src="app.js?v=answer-slow-15"></script>
+</body>
+</html>

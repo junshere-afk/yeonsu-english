@@ -1,0 +1,1597 @@
+[
+  {
+    "id": "Q1-001",
+    "korean": "나는 보통 7시에 일어나.",
+    "answer": "I usually get up at seven.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-002",
+    "korean": "나는 아침마다 이를 닦아.",
+    "answer": "I brush my teeth every morning.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-003",
+    "korean": "나는 학교에 걸어가.",
+    "answer": "I walk to school.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-004",
+    "korean": "나는 아침을 가끔 거르기도 해.",
+    "answer": "I sometimes skip breakfast.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-005",
+    "korean": "나는 지금 신발을 신고 있어.",
+    "answer": "I am putting on my shoes.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-006",
+    "korean": "나는 방을 청소해야 해.",
+    "answer": "I need to clean my room.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-007",
+    "korean": "나는 자기 전에 책을 읽어.",
+    "answer": "I read before I go to bed.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-008",
+    "korean": "나는 오늘 좀 피곤해.",
+    "answer": "I am a little tired today.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-009",
+    "korean": "우리 가족은 보통 같이 저녁을 먹어.",
+    "answer": "My family usually has dinner together.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-010",
+    "korean": "나는 지금 숙제를 하고 있어.",
+    "answer": "I am doing my homework right now.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-011",
+    "korean": "나는 주말에 늦게 일어나.",
+    "answer": "I get up late on weekends.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-012",
+    "korean": "나는 물을 좀 마시고 싶어.",
+    "answer": "I want some water.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-013",
+    "korean": "나는 오늘 우산을 가져왔어.",
+    "answer": "I brought an umbrella today.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-014",
+    "korean": "나는 버스를 기다리고 있어.",
+    "answer": "I am waiting for the bus.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-015",
+    "korean": "나는 아직 준비가 안 됐어.",
+    "answer": "I am not ready yet.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "일상생활과 습관"
+    ]
+  },
+  {
+    "id": "Q1-016",
+    "korean": "나는 어제 친구를 만났어.",
+    "answer": "I met my friend yesterday.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-017",
+    "korean": "나는 지난주에 영화를 봤어.",
+    "answer": "I watched a movie last week.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-018",
+    "korean": "나는 어제 늦게 잤어.",
+    "answer": "I went to bed late last night.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-019",
+    "korean": "나는 아침에 열쇠를 잃어버렸어.",
+    "answer": "I lost my keys this morning.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-020",
+    "korean": "나는 그 책을 이미 읽었어.",
+    "answer": "I have already read that book.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-021",
+    "korean": "나는 전에 여기 와 본 적이 있어.",
+    "answer": "I have been here before.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-022",
+    "korean": "나는 아직 점심을 안 먹었어.",
+    "answer": "I have not had lunch yet.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-023",
+    "korean": "우리는 지난여름에 바다에 갔어.",
+    "answer": "We went to the beach last summer.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-024",
+    "korean": "나는 내일 일찍 일어날 거야.",
+    "answer": "I will get up early tomorrow.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-025",
+    "korean": "나는 이번 주말에 수영하러 갈 거야.",
+    "answer": "I am going swimming this weekend.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-026",
+    "korean": "나는 나중에 너한테 전화할게.",
+    "answer": "I will call you later.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-027",
+    "korean": "나는 다음 주에 시험이 있어.",
+    "answer": "I have a test next week.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-028",
+    "korean": "우리는 내일 비가 오면 집에 있을 거야.",
+    "answer": "We will stay home if it rains tomorrow.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-029",
+    "korean": "나는 언젠가 캐나다에 가고 싶어.",
+    "answer": "I want to go to Canada someday.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-030",
+    "korean": "나는 이번에는 더 열심히 해볼 거야.",
+    "answer": "I will try harder this time.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "과거 경험과 미래 계획"
+    ]
+  },
+  {
+    "id": "Q1-031",
+    "korean": "너는 몇 시에 일어나?",
+    "answer": "What time do you get up?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-032",
+    "korean": "너는 학교에 어떻게 가?",
+    "answer": "How do you get to school?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-033",
+    "korean": "너는 주말에 뭐 했어?",
+    "answer": "What did you do over the weekend?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-034",
+    "korean": "이거 누구 거야?",
+    "answer": "Whose is this?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-035",
+    "korean": "화장실이 어디에 있어?",
+    "answer": "Where is the bathroom?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-036",
+    "korean": "이건 무슨 뜻이야?",
+    "answer": "What does this mean?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-037",
+    "korean": "너는 왜 웃고 있어?",
+    "answer": "Why are you laughing?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-038",
+    "korean": "우리 언제 출발해?",
+    "answer": "When are we leaving?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-039",
+    "korean": "너는 어떤 게 더 좋아?",
+    "answer": "Which one do you like better?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-040",
+    "korean": "이거 어떻게 사용하는 거야?",
+    "answer": "How do you use this?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-041",
+    "korean": "너는 누구랑 왔어?",
+    "answer": "Who did you come with?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-042",
+    "korean": "너 지금 뭐 찾고 있어?",
+    "answer": "What are you looking for?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-043",
+    "korean": "여기 앉아도 돼?",
+    "answer": "Can I sit here?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-044",
+    "korean": "너는 얼마나 오래 기다렸어?",
+    "answer": "How long have you been waiting?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-045",
+    "korean": "오늘 날씨 어때?",
+    "answer": "What is the weather like today?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "질문과 대답"
+    ]
+  },
+  {
+    "id": "Q1-046",
+    "korean": "문 좀 닫아 줄래?",
+    "answer": "Could you close the door?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "부탁과 요청"
+    ]
+  },
+  {
+    "id": "Q1-047",
+    "korean": "조금 천천히 말해 줄래?",
+    "answer": "Could you speak a little more slowly?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "부탁과 요청"
+    ]
+  },
+  {
+    "id": "Q1-048",
+    "korean": "한 번 더 말해 줄래?",
+    "answer": "Could you say that again?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "부탁과 요청"
+    ]
+  },
+  {
+    "id": "Q1-049",
+    "korean": "나 좀 도와줄 수 있어?",
+    "answer": "Can you help me?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "부탁과 요청"
+    ]
+  },
+  {
+    "id": "Q1-050",
+    "korean": "잠깐만 기다려 줘.",
+    "answer": "Please wait a moment.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "부탁과 요청"
+    ]
+  },
+  {
+    "id": "Q1-051",
+    "korean": "나한테 연필 좀 빌려줄래?",
+    "answer": "Can I borrow a pencil?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "부탁과 요청"
+    ]
+  },
+  {
+    "id": "Q1-052",
+    "korean": "이거 좀 봐 줄래?",
+    "answer": "Could you take a look at this?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "부탁과 요청"
+    ]
+  },
+  {
+    "id": "Q1-053",
+    "korean": "사진 한 장 찍어 줄래?",
+    "answer": "Could you take a picture of me?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "부탁과 요청"
+    ]
+  },
+  {
+    "id": "Q1-054",
+    "korean": "에어컨 좀 켜 줄래?",
+    "answer": "Could you turn on the air conditioner?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "부탁과 요청"
+    ]
+  },
+  {
+    "id": "Q1-055",
+    "korean": "나도 같이 해도 돼?",
+    "answer": "Can I join you?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "부탁과 요청"
+    ]
+  },
+  {
+    "id": "Q1-056",
+    "korean": "나는 그게 좋은 생각이라고 생각해.",
+    "answer": "I think that is a good idea.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-057",
+    "korean": "나는 그 말에 동의하지 않아.",
+    "answer": "I do not agree with that.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-058",
+    "korean": "나는 조금 긴장돼.",
+    "answer": "I am a little nervous.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-059",
+    "korean": "나는 정말 기대돼.",
+    "answer": "I am really excited.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-060",
+    "korean": "나는 그게 무서워.",
+    "answer": "I am scared of that.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-061",
+    "korean": "나는 네가 자랑스러워.",
+    "answer": "I am proud of you.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-062",
+    "korean": "나는 무슨 말을 해야 할지 모르겠어.",
+    "answer": "I do not know what to say.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-063",
+    "korean": "나는 그게 공평하지 않다고 생각해.",
+    "answer": "I do not think that is fair.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-064",
+    "korean": "나는 혼자 하는 게 더 좋아.",
+    "answer": "I prefer doing it alone.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-065",
+    "korean": "나는 오늘 기분이 별로야.",
+    "answer": "I am not in a good mood today.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-066",
+    "korean": "나는 실수할까 봐 걱정돼.",
+    "answer": "I am worried about making a mistake.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-067",
+    "korean": "나는 그 이야기가 재미있었어.",
+    "answer": "I thought that story was interesting.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-068",
+    "korean": "나는 아직 결정하지 못했어.",
+    "answer": "I have not decided yet.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-069",
+    "korean": "나는 네 말이 무슨 뜻인지 알겠어.",
+    "answer": "I see what you mean.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-070",
+    "korean": "나는 다른 방법을 시도해 보고 싶어.",
+    "answer": "I want to try a different way.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "감정과 생각 표현"
+    ]
+  },
+  {
+    "id": "Q1-071",
+    "korean": "나는 오늘 새 친구를 사귀었어.",
+    "answer": "I made a new friend today.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-072",
+    "korean": "나는 선생님께 질문이 있어.",
+    "answer": "I have a question for the teacher.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-073",
+    "korean": "나는 이 문제를 이해하지 못했어.",
+    "answer": "I did not understand this question.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-074",
+    "korean": "나는 숙제를 집에 두고 왔어.",
+    "answer": "I left my homework at home.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-075",
+    "korean": "우리는 지금 조별 활동을 하고 있어.",
+    "answer": "We are working in groups right now.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-076",
+    "korean": "내 차례가 언제야?",
+    "answer": "When is my turn?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-077",
+    "korean": "나는 발표할 준비가 됐어.",
+    "answer": "I am ready to give my presentation.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-078",
+    "korean": "나는 쉬는 시간에 친구들이랑 놀았어.",
+    "answer": "I played with my friends during recess.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-079",
+    "korean": "나는 이 단어를 어떻게 발음하는지 모르겠어.",
+    "answer": "I do not know how to pronounce this word.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-080",
+    "korean": "선생님 말씀을 잘 못 들었어.",
+    "answer": "I could not hear the teacher clearly.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-081",
+    "korean": "나는 오늘 체육 수업이 있어.",
+    "answer": "I have PE today.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-082",
+    "korean": "우리 같이 점심 먹을래?",
+    "answer": "Do you want to have lunch together?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-083",
+    "korean": "나는 아직 이 문제를 풀고 있어.",
+    "answer": "I am still working on this problem.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-084",
+    "korean": "이 과제는 언제까지 내야 해?",
+    "answer": "When is this assignment due?",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-085",
+    "korean": "나는 친구에게 규칙을 설명했어.",
+    "answer": "I explained the rules to my friend.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "학교와 친구"
+    ]
+  },
+  {
+    "id": "Q1-086",
+    "korean": "비가 와서 밖에 안 나갔어.",
+    "answer": "I did not go outside because it was raining.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-087",
+    "korean": "배가 고파서 간식을 먹었어.",
+    "answer": "I had a snack because I was hungry.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-088",
+    "korean": "너무 추워서 창문을 닫았어.",
+    "answer": "I closed the window because it was too cold.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-089",
+    "korean": "나는 피곤했지만 숙제를 끝냈어.",
+    "answer": "I was tired, but I finished my homework.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-090",
+    "korean": "시간이 있으면 같이 놀자.",
+    "answer": "If you have time, let us play together.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-091",
+    "korean": "숙제를 끝내면 게임해도 돼.",
+    "answer": "You can play games after you finish your homework.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-092",
+    "korean": "나는 버스를 놓쳐서 늦었어.",
+    "answer": "I was late because I missed the bus.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-093",
+    "korean": "이게 더 쉬워서 이걸 선택했어.",
+    "answer": "I chose this one because it was easier.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-094",
+    "korean": "나는 그걸 해본 적이 없어서 잘 몰라.",
+    "answer": "I do not know much about it because I have never tried it.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-095",
+    "korean": "그가 말하는 동안 나는 메모했어.",
+    "answer": "I took notes while he was speaking.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-096",
+    "korean": "나는 물을 마시려고 잠깐 멈췄어.",
+    "answer": "I stopped for a moment to drink some water.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-097",
+    "korean": "나는 연습할수록 조금씩 나아지고 있어.",
+    "answer": "I am getting better as I practice.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-098",
+    "korean": "너무 시끄러워서 집중할 수 없어.",
+    "answer": "It is too noisy for me to concentrate.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-099",
+    "korean": "나는 이해가 안 돼서 다시 물어봤어.",
+    "answer": "I asked again because I did not understand.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "Q1-100",
+    "korean": "우리가 일찍 출발하면 늦지 않을 거야.",
+    "answer": "If we leave early, we will not be late.",
+    "alternatives": [],
+    "level": "beginner",
+    "tags": [
+      "quest-1",
+      "이유 설명과 문장 연결"
+    ]
+  },
+  {
+    "id": "i01",
+    "korean": "나는 이미 숙제를 끝냈어.",
+    "answer": "I have already finished my homework.",
+    "alternatives": [
+      "I've already finished my homework."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "present-perfect"
+    ]
+  },
+  {
+    "id": "i02",
+    "korean": "그녀는 두 시간째 공부하고 있어.",
+    "answer": "She has been studying for two hours.",
+    "alternatives": [
+      "She's been studying for two hours."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "present-perfect-continuous"
+    ]
+  },
+  {
+    "id": "i03",
+    "korean": "왜 그렇게 늦게 도착했어?",
+    "answer": "Why did you arrive so late?",
+    "alternatives": [
+      "Why were you so late?"
+    ],
+    "level": "intermediate",
+    "tags": [
+      "why",
+      "past-question"
+    ]
+  },
+  {
+    "id": "i04",
+    "korean": "나는 그 소식을 아직 듣지 못했어.",
+    "answer": "I have not heard the news yet.",
+    "alternatives": [
+      "I haven't heard the news yet."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "present-perfect",
+      "negative"
+    ]
+  },
+  {
+    "id": "i05",
+    "korean": "우리는 비가 와서 집에 있었어.",
+    "answer": "We stayed home because it was raining.",
+    "alternatives": [
+      "We stayed home because of the rain."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "because",
+      "past"
+    ]
+  },
+  {
+    "id": "i06",
+    "korean": "너는 이 일을 끝내야 해.",
+    "answer": "You have to finish this work.",
+    "alternatives": [
+      "You need to finish this work."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "have-to"
+    ]
+  },
+  {
+    "id": "i07",
+    "korean": "그들은 언제부터 여기 살았니?",
+    "answer": "How long have they lived here?",
+    "alternatives": [
+      "How long have they been living here?"
+    ],
+    "level": "intermediate",
+    "tags": [
+      "how-long",
+      "present-perfect"
+    ]
+  },
+  {
+    "id": "i08",
+    "korean": "나는 네가 말하는 것을 듣고 있었어.",
+    "answer": "I was listening to you speak.",
+    "alternatives": [
+      "I was listening to what you were saying."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "past-continuous"
+    ]
+  },
+  {
+    "id": "i09",
+    "korean": "우리는 지금 무엇을 기다리고 있니?",
+    "answer": "What are we waiting for?",
+    "alternatives": [],
+    "level": "intermediate",
+    "tags": [
+      "what",
+      "present-continuous"
+    ]
+  },
+  {
+    "id": "i10",
+    "korean": "그는 올 수 없다고 말했어.",
+    "answer": "He said that he could not come.",
+    "alternatives": [
+      "He said he couldn't come."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "reported-speech",
+      "could"
+    ]
+  },
+  {
+    "id": "i11",
+    "korean": "나는 전에 그 식당에 가 본 적이 있어.",
+    "answer": "I have been to that restaurant before.",
+    "alternatives": [
+      "I've been to that restaurant before."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "present-perfect",
+      "experience"
+    ]
+  },
+  {
+    "id": "i12",
+    "korean": "너는 나에게 말했어야 했어.",
+    "answer": "You should have told me.",
+    "alternatives": [
+      "You should've told me."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "should-have"
+    ]
+  },
+  {
+    "id": "i13",
+    "korean": "나는 버스를 타는 대신 걸어갔어.",
+    "answer": "I walked instead of taking the bus.",
+    "alternatives": [],
+    "level": "intermediate",
+    "tags": [
+      "instead-of",
+      "past"
+    ]
+  },
+  {
+    "id": "i14",
+    "korean": "그녀는 저녁을 먹는 동안 전화를 받았어.",
+    "answer": "She answered the phone while she was eating dinner.",
+    "alternatives": [
+      "She answered the phone while eating dinner."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "while",
+      "past-continuous"
+    ]
+  },
+  {
+    "id": "i15",
+    "korean": "우리는 그 문제를 해결할 수 있을지도 몰라.",
+    "answer": "We might be able to solve the problem.",
+    "alternatives": [
+      "We may be able to solve the problem."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "might",
+      "modal"
+    ]
+  },
+  {
+    "id": "i16",
+    "korean": "네가 가장 좋아하는 계절은 뭐야?",
+    "answer": "What is your favorite season?",
+    "alternatives": [
+      "What's your favorite season?"
+    ],
+    "level": "intermediate",
+    "tags": [
+      "what",
+      "question"
+    ]
+  },
+  {
+    "id": "i17",
+    "korean": "그는 내 메시지에 아직 답하지 않았어.",
+    "answer": "He has not replied to my message yet.",
+    "alternatives": [
+      "He hasn't replied to my message yet."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "present-perfect",
+      "negative"
+    ]
+  },
+  {
+    "id": "i18",
+    "korean": "나는 네가 걱정할 필요가 없다고 생각해.",
+    "answer": "I do not think you need to worry.",
+    "alternatives": [
+      "I don't think you need to worry."
+    ],
+    "level": "intermediate",
+    "tags": [
+      "think",
+      "negative"
+    ]
+  },
+  {
+    "id": "i19",
+    "korean": "우리는 떠나기 전에 문을 잠갔어.",
+    "answer": "We locked the door before we left.",
+    "alternatives": [],
+    "level": "intermediate",
+    "tags": [
+      "before",
+      "past"
+    ]
+  },
+  {
+    "id": "i20",
+    "korean": "어떻게 이곳을 알게 됐어?",
+    "answer": "How did you find out about this place?",
+    "alternatives": [
+      "How did you hear about this place?"
+    ],
+    "level": "intermediate",
+    "tags": [
+      "how",
+      "question"
+    ]
+  },
+  {
+    "id": "a01",
+    "korean": "내가 너였다면 그 제안을 받아들일 거야.",
+    "answer": "If I were you, I would accept the offer.",
+    "alternatives": [
+      "If I were you, I'd accept the offer."
+    ],
+    "level": "advanced",
+    "tags": [
+      "conditional"
+    ]
+  },
+  {
+    "id": "a02",
+    "korean": "그녀가 도착할 때까지 기다리자.",
+    "answer": "Let's wait until she arrives.",
+    "alternatives": [
+      "We should wait until she arrives."
+    ],
+    "level": "advanced",
+    "tags": [
+      "until",
+      "future"
+    ]
+  },
+  {
+    "id": "a03",
+    "korean": "나는 네가 왜 화가 났는지 이해할 수 있어.",
+    "answer": "I can understand why you are upset.",
+    "alternatives": [
+      "I can see why you're upset."
+    ],
+    "level": "advanced",
+    "tags": [
+      "embedded-question",
+      "can"
+    ]
+  },
+  {
+    "id": "a04",
+    "korean": "나는 막 집을 나서려던 참이었어.",
+    "answer": "I was just about to leave home.",
+    "alternatives": [
+      "I was about to leave home."
+    ],
+    "level": "advanced",
+    "tags": [
+      "past-continuous",
+      "about-to"
+    ]
+  },
+  {
+    "id": "a05",
+    "korean": "네가 더 일찍 알려 줬더라면 도와줄 수 있었을 텐데.",
+    "answer": "If you had told me earlier, I could have helped.",
+    "alternatives": [],
+    "level": "advanced",
+    "tags": [
+      "third-conditional"
+    ]
+  },
+  {
+    "id": "a06",
+    "korean": "그 영화는 내가 예상했던 것보다 훨씬 더 좋았어.",
+    "answer": "The movie was much better than I expected.",
+    "alternatives": [
+      "That movie was much better than I expected."
+    ],
+    "level": "advanced",
+    "tags": [
+      "comparison",
+      "past"
+    ]
+  },
+  {
+    "id": "a07",
+    "korean": "나는 그가 약속을 지킬지 확신하지 못해.",
+    "answer": "I am not sure whether he will keep his promise.",
+    "alternatives": [
+      "I'm not sure if he'll keep his promise."
+    ],
+    "level": "advanced",
+    "tags": [
+      "whether",
+      "future"
+    ]
+  },
+  {
+    "id": "a08",
+    "korean": "우리가 출발할 무렵에는 눈이 내리고 있었어.",
+    "answer": "It was snowing by the time we left.",
+    "alternatives": [],
+    "level": "advanced",
+    "tags": [
+      "past-continuous",
+      "by-the-time"
+    ]
+  },
+  {
+    "id": "a09",
+    "korean": "나는 아직 결정을 내리지 못했어.",
+    "answer": "I have not made a decision yet.",
+    "alternatives": [
+      "I haven't made a decision yet."
+    ],
+    "level": "advanced",
+    "tags": [
+      "present-perfect",
+      "negative"
+    ]
+  },
+  {
+    "id": "a10",
+    "korean": "무슨 일이 있어도 나는 제시간에 거기에 갈 거야.",
+    "answer": "I will be there on time no matter what happens.",
+    "alternatives": [
+      "I'll be there on time no matter what happens."
+    ],
+    "level": "advanced",
+    "tags": [
+      "no-matter-what",
+      "future"
+    ]
+  },
+  {
+    "id": "a11",
+    "korean": "그는 아팠는데도 출근했어.",
+    "answer": "He went to work even though he was sick.",
+    "alternatives": [
+      "Although he was sick, he went to work."
+    ],
+    "level": "advanced",
+    "tags": [
+      "even-though",
+      "past"
+    ]
+  },
+  {
+    "id": "a12",
+    "korean": "나는 네가 말한 것을 곰곰이 생각해 볼게.",
+    "answer": "I will think about what you said.",
+    "alternatives": [
+      "I'll think about what you said."
+    ],
+    "level": "advanced",
+    "tags": [
+      "embedded-clause",
+      "future"
+    ]
+  },
+  {
+    "id": "a13",
+    "korean": "우리는 예약하지 않았더라면 자리를 얻지 못했을 거야.",
+    "answer": "We would not have gotten a table if we had not made a reservation.",
+    "alternatives": [
+      "We wouldn't have gotten a table if we hadn't made a reservation."
+    ],
+    "level": "advanced",
+    "tags": [
+      "third-conditional"
+    ]
+  },
+  {
+    "id": "a14",
+    "korean": "그녀는 내가 도착하기 전에 이미 떠났어.",
+    "answer": "She had already left before I arrived.",
+    "alternatives": [],
+    "level": "advanced",
+    "tags": [
+      "past-perfect"
+    ]
+  },
+  {
+    "id": "a15",
+    "korean": "네가 그 일을 끝내는 데 얼마나 걸릴 것 같아?",
+    "answer": "How long do you think it will take you to finish it?",
+    "alternatives": [],
+    "level": "advanced",
+    "tags": [
+      "how-long",
+      "embedded-question"
+    ]
+  },
+  {
+    "id": "a16",
+    "korean": "나는 그 일이 생각만큼 어렵지 않다는 것을 깨달았어.",
+    "answer": "I realized that it was not as difficult as I thought.",
+    "alternatives": [
+      "I realized it wasn't as difficult as I thought."
+    ],
+    "level": "advanced",
+    "tags": [
+      "as-as",
+      "past"
+    ]
+  },
+  {
+    "id": "a17",
+    "korean": "그가 오면 나에게 알려 줘.",
+    "answer": "Let me know when he arrives.",
+    "alternatives": [
+      "Please let me know when he arrives."
+    ],
+    "level": "advanced",
+    "tags": [
+      "when",
+      "future"
+    ]
+  },
+  {
+    "id": "a18",
+    "korean": "나는 이 일을 혼자서 처리할 수 있을지 모르겠어.",
+    "answer": "I do not know if I can handle this by myself.",
+    "alternatives": [
+      "I don't know if I can handle this on my own."
+    ],
+    "level": "advanced",
+    "tags": [
+      "if",
+      "can"
+    ]
+  },
+  {
+    "id": "a19",
+    "korean": "우리는 길을 잃었기 때문에 지도를 확인해야 했어.",
+    "answer": "We had to check the map because we got lost.",
+    "alternatives": [],
+    "level": "advanced",
+    "tags": [
+      "because",
+      "had-to"
+    ]
+  },
+  {
+    "id": "a20",
+    "korean": "네가 준비되면 시작할 수 있어.",
+    "answer": "We can start whenever you are ready.",
+    "alternatives": [
+      "We can start when you're ready."
+    ],
+    "level": "advanced",
+    "tags": [
+      "whenever",
+      "can"
+    ]
+  }
+]
