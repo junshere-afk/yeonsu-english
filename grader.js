@@ -8,9 +8,18 @@ const contractions = {
   "haven't": "have not", "hasn't": "has not", "hadn't": "had not", "won't": "will not", "wouldn't": "would not", "couldn't": "could not", "shouldn't": "should not", "can't": "cannot", "mightn't": "might not", "mustn't": "must not"
 };
 
+// Deliberately narrow everyday equivalences shared by all quests.
+const equivalentExpressions = [
+  [/\bcell phone\b/g, 'phone'],
+  [/\bmom\b/g, 'mother'],
+  [/\bdad\b/g, 'father']
+];
+
 export function normalize(text = '') {
   let normalized = text.toLowerCase().replace(/[’]/g, "'").replace(/[^a-z0-9'\s]/g, ' ');
   Object.entries(contractions).forEach(([short, long]) => { normalized = normalized.replace(new RegExp(`\\b${short}\\b`, 'g'), long); });
+  normalized = normalized.replace(/\b([a-z]+)'s\s+(blue|small|busy|cheap|beautiful|tall|black|expensive|big|clean)\b/g, '$1 is $2');
+  equivalentExpressions.forEach(([pattern, replacement]) => { normalized = normalized.replace(pattern, replacement); });
   return normalized.replace(/\s+/g, ' ').trim();
 }
 
