@@ -1,0 +1,206 @@
+{
+  "schema_version": "quest-bank-2",
+  "app": "Speed Speaking",
+  "quest": {
+    "id": 1,
+    "title": "Quest 1 — Day 1 평서문·의문문 연습",
+    "source": "기초문법 2017.docx, Level 1 Day 1 only",
+    "bank_count": 13,
+    "target_score_default": 20,
+    "completion_rule": "누적 점수 >= 목표 점수까지 문항 수 제한 없이 진행",
+    "first_try_points": 2,
+    "second_try_points": 1,
+    "note": "교재 Day 1에서 추린 Sentence 문제만 사용. 질문을 듣고 답변하는 Response 유형은 보류."
+  },
+  "items": [
+    {
+      "id": "D1-001",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "내 펜은 파란색이야.",
+      "question_en": null,
+      "answer": "My pen is blue.",
+      "accepted_answers": [
+        "My pen is blue."
+      ],
+      "source_section": "Day1 warming-up / pattern"
+    },
+    {
+      "id": "D1-002",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "내 방은 작아.",
+      "question_en": null,
+      "answer": "My room is small.",
+      "accepted_answers": [
+        "My room is small."
+      ],
+      "source_section": "Day1 warming-up / pattern"
+    },
+    {
+      "id": "D1-003",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "나 바빠.",
+      "question_en": null,
+      "answer": "I am busy.",
+      "accepted_answers": [
+        "I am busy."
+      ],
+      "source_section": "Day1 warming-up / pattern"
+    },
+    {
+      "id": "D1-004",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너 바빠.",
+      "question_en": null,
+      "answer": "You are busy.",
+      "accepted_answers": [
+        "You are busy."
+      ],
+      "source_section": "Day1 warming-up / pattern"
+    },
+    {
+      "id": "D1-005",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "우리 바빠.",
+      "question_en": null,
+      "answer": "We are busy.",
+      "accepted_answers": [
+        "We are busy."
+      ],
+      "source_section": "Day1 warming-up / pattern"
+    },
+    {
+      "id": "D1-006",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 가방 저렴해?",
+      "question_en": null,
+      "answer": "Is your bag cheap?",
+      "accepted_answers": [
+        "Is your bag cheap?"
+      ],
+      "source_section": "Day1 question practice"
+    },
+    {
+      "id": "D1-007",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 방 작아?",
+      "question_en": null,
+      "answer": "Is your room small?",
+      "accepted_answers": [
+        "Is your room small?"
+      ],
+      "source_section": "Day1 question practice"
+    },
+    {
+      "id": "D1-008",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너네 엄마 예쁘셔?",
+      "question_en": null,
+      "answer": "Is your mother beautiful?",
+      "accepted_answers": [
+        "Is your mother beautiful?"
+      ],
+      "source_section": "Day1 question practice"
+    },
+    {
+      "id": "D1-009",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너네 아빠 키 커?",
+      "question_en": null,
+      "answer": "Is your father tall?",
+      "accepted_answers": [
+        "Is your father tall?"
+      ],
+      "source_section": "Day1 question practice"
+    },
+    {
+      "id": "D1-010",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 펜들 검정색이야?",
+      "question_en": null,
+      "answer": "Are your pens black?",
+      "accepted_answers": [
+        "Are your pens black?"
+      ],
+      "source_section": "Day1 question practice"
+    },
+    {
+      "id": "D1-011",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 신발 비싸?",
+      "question_en": null,
+      "answer": "Are your shoes expensive?",
+      "accepted_answers": [
+        "Are your shoes expensive?"
+      ],
+      "source_section": "Day1 question practice"
+    },
+    {
+      "id": "D1-012",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 휴대폰 비싸?",
+      "question_en": null,
+      "answer": "Is your cell phone expensive?",
+      "accepted_answers": [
+        "Is your cell phone expensive?"
+      ],
+      "source_section": "Day1 question practice"
+    },
+    {
+      "id": "D1-013",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 방 커?",
+      "question_en": null,
+      "answer": "Is your room big?",
+      "accepted_answers": [
+        "Is your room big?"
+      ],
+      "source_section": "Day1 question practice"
+    }
+  ],
+  "remediation": [],
+  "grading_notes": {
+    "sentence": "영어 정답은 교재 원문. 축약형은 앱의 정규화 규칙으로 처리. 의미상 타당한 다른 답은 추후 검수.",
+    "review": "어휘/상황 모호성을 줄이기 위해 일부 Day1 문장은 제외. 원문에 없는 보충 문장은 생성하지 않음.",
+    "scope": "Response 유형 및 그 관련 TTS/답변 판정은 이번 버전에서 구현하지 않음."
+  }
+}
+
