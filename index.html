@@ -27,6 +27,15 @@
     .quest-options{display:grid;gap:8px;padding:0 12px 12px}
     .quest-select{border:2px solid #dbeaf3;border-radius:12px;padding:10px 12px;background:#fff;color:#446882;text-align:left;font-weight:800;cursor:pointer}
     .quest-select[aria-pressed="true"]{border-color:#70cfad;background:#eafbf3;color:#187755}
+    .quest-score{margin-left:auto;border-radius:999px;padding:5px 10px;background:#fff3c5;color:#995f00;font-size:12px;font-weight:900}
+    .quest-score[hidden],.response-replay[hidden]{display:none}
+    .response-replay{width:100%;margin:12px 0 0;font-size:15px}
+    .quest-settings{margin:12px 0;border:1px solid #dcebf3;border-radius:15px;background:#fff}
+    .quest-settings summary{padding:12px 15px;cursor:pointer;font-weight:800;color:#4c6a8a}
+    .quest-settings label{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 15px 13px;font-size:13px;font-weight:800;color:#4c6a8a}
+    .quest-settings input{width:82px;border:2px solid #dcebf3;border-radius:10px;padding:7px;text-align:center;font-weight:800}
+    .quest-hint{margin:10px 0 0;font-size:21px;line-height:1.7;font-weight:900;letter-spacing:.02em;color:#253b59}
+    .quest-hint .blank{display:inline-block;min-width:48px;border-bottom:3px solid #6e9eb4;color:transparent;vertical-align:middle}
     @media (max-width:560px){.prompt-card h2{font-size:clamp(32px,10vw,46px)}.action-row button{font-size:15px}.session-actions.minor-actions button{flex:1}}
     .recognition-note{margin:9px 0 0!important;color:#7394a7;font-size:12px!important;font-weight:700}
     #mic-btn.listening{color:#fff;background:linear-gradient(145deg,#f36d64,#d93936);box-shadow:0 3px 0 #aa2828,0 0 0 0 #e84d4755;animation:recordPulse 1s ease-in-out infinite}
@@ -52,6 +61,7 @@
       <div class="mission-hero"><div class="mission-fox" aria-hidden="true">🦊<i>✦</i></div><div class="mission-copy"><span class="mission-label">TODAY'S MISSION</span><strong>영어로 크게 말해 보자!</strong><p>여우 대장과 함께 15문장을 도전해요.</p></div><div class="mission-badge"><b>15</b><span>문장</span></div></div>
       <div class="quest-status" hidden><strong>학습 진도</strong><span>진도 기록 준비 중</span></div>
       <button class="primary start" id="start-btn">퀘스트 시작! <span>→</span></button><button id="sound-btn" class="link-button" hidden>🔊 사운드 ON</button>
+      <details class="quest-settings"><summary>⚙ Quest 1 설정</summary><label>목표 점수 <input id="target-score-input" type="number" min="1" max="200" step="1" value="20" inputmode="numeric"> 점</label></details>
       <button class="link-button" id="review-btn">한 번 더 도전!</button>
       <details class="menu-options"><summary>다른 퀘스트 선택</summary><div class="quest-options"><button type="button" class="quest-select" data-quest-select="Q01">Quest 1 · be동사 현재형</button><button type="button" class="quest-select" data-quest-select="Q02">Quest 2 · 일반동사 현재형</button></div></details>
       <details class="menu-options"><summary>자유 연습</summary><p>기존 일상 문장 140개에서 15문장을 연습합니다.</p><button id="free-practice-btn" class="secondary">자유 연습 시작</button></details>
@@ -59,9 +69,10 @@
     </section>
 
     <section id="practice-view" class="panel practice hidden" aria-live="polite"><div id="countdown-overlay" class="countdown-overlay hidden"><span id="countdown-text">Ready?</span></div>
-      <div class="progress-row"><span class="quest-counter"><b aria-hidden="true">★</b><span id="question-counter">1 / 15</span></span><span id="difficulty-badge" class="badge"></span></div>
+      <div class="progress-row"><span class="quest-counter"><b aria-hidden="true">★</b><span id="question-counter">1 / 15</span></span><span id="difficulty-badge" class="badge"></span><span id="quest-score" class="quest-score" hidden>0 / 20점</span></div>
       <div class="progress"><div id="progress-bar"></div></div>
       <div class="prompt-card"><span class="prompt-star" aria-hidden="true">✦</span><p class="prompt-label">아래 문장을 영어로 말해 보세요</p><h2 id="korean-prompt"></h2></div>
+      <button id="response-replay-btn" class="secondary response-replay" hidden>🔊 질문 다시 듣기</button>
       <div class="transcript-card answer-card"><form id="answer-form"><input id="answer-input" type="text" autocomplete="off" enterkeyhint="done" placeholder="말하거나 영어로 입력하세요" aria-label="영어 답변" /><button type="submit" hidden aria-hidden="true" tabindex="-1"></button></form><p id="transcript" hidden></p><p id="recognition-status" class="recognition-note">입력 후 Enter 또는 확인 버튼을 눌러요.</p></div>
       <div id="feedback" class="feedback hidden"></div>
       <details class="voice-settings"><summary>⚙ 음성 설정</summary><div class="voice-controls"><label>영어 음성 <select id="voice-select"><option value="">기본 영어 음성</option></select></label><label>속도 <select id="rate-select"><option value="0.8">0.8배</option><option value="1" selected>1.0배</option></select></label></div></details>

@@ -1,0 +1,1893 @@
+{
+  "schema_version": "quest-bank-2",
+  "app": "Speed Speaking",
+  "quest": {
+    "id": 1,
+    "title": "Quest 1 — be동사 + 형용사",
+    "source": "기초문법 2017 Level 1 Day 1 (adapted)",
+    "daily_count": null,
+    "sentence_count": 68,
+    "response_count": 32,
+    "passing_score": 20,
+    "first_try_points": 2,
+    "second_try_points": 1,
+    "estimated_minutes": 5,
+    "selection": "기초 구조 우선 도입 후 유형 혼합; 최근 출제 문제 회피; 100개 소진 시 재셔플",
+    "note": "원본 교재 Level 1 Day 1 문법 범위를 참고하여 제작한 앱용 창작 문항. 100문항 중 기존 파일럿 40개 + 신규 60개.",
+    "bank_count": 100,
+    "target_score_default": 20,
+    "completion_rule": "누적 점수 >= 목표 점수 시 정답 확인 후 종료. 문항 수 무제한. 문제 은행 소진 시 셔플 재사용.",
+    "max_attempts_per_item": 2
+  },
+  "items": [
+    {
+      "id": "Q1-S01",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "나는 바빠.",
+      "question_en": null,
+      "answer": "I am busy.",
+      "accepted_answers": [
+        "I'm busy.",
+        "I am busy.",
+        "I’m busy."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S02",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너 바빠.",
+      "question_en": null,
+      "answer": "You are busy.",
+      "accepted_answers": [
+        "You're busy.",
+        "You are busy.",
+        "You’re busy."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S03",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그녀는 키가 작아.",
+      "question_en": null,
+      "answer": "She is short.",
+      "accepted_answers": [
+        "She's short.",
+        "She is short.",
+        "She’s short."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S04",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "우리 아빠 키 커.",
+      "question_en": null,
+      "answer": "My dad is tall.",
+      "accepted_answers": [
+        "My dad is tall.",
+        "My dad’s tall."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S05",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "내 방은 작아.",
+      "question_en": null,
+      "answer": "My room is small.",
+      "accepted_answers": [
+        "My room is small.",
+        "My room’s small."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S06",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 가방은 비싸.",
+      "question_en": null,
+      "answer": "The bag is expensive.",
+      "accepted_answers": [
+        "The bag is expensive."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S07",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 신발들은 비싸.",
+      "question_en": null,
+      "answer": "The shoes are expensive.",
+      "accepted_answers": [
+        "The shoes are expensive."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S08",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "내 펜은 파란색이야.",
+      "question_en": null,
+      "answer": "My pen is blue.",
+      "accepted_answers": [
+        "My pen is blue."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S09",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그는 친절해.",
+      "question_en": null,
+      "answer": "He is kind.",
+      "accepted_answers": [
+        "He's kind.",
+        "He is kind.",
+        "He’s kind."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S10",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 아이들은 어려.",
+      "question_en": null,
+      "answer": "The kids are young.",
+      "accepted_answers": [
+        "The kids are young."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S11",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 가방 싸?",
+      "question_en": null,
+      "answer": "Is your bag cheap?",
+      "accepted_answers": [
+        "Is your bag cheap?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S12",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너네 엄마 키 커?",
+      "question_en": null,
+      "answer": "Is your mom tall?",
+      "accepted_answers": [
+        "Is your mom tall?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S13",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 방 깨끗해?",
+      "question_en": null,
+      "answer": "Is your room clean?",
+      "accepted_answers": [
+        "Is your room clean?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S14",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 신발들 오래됐어?",
+      "question_en": null,
+      "answer": "Are the shoes old?",
+      "accepted_answers": [
+        "Are the shoes old?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S15",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너 바빠?",
+      "question_en": null,
+      "answer": "Are you busy?",
+      "accepted_answers": [
+        "Are you busy?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S16",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그는 어려?",
+      "question_en": null,
+      "answer": "Is he young?",
+      "accepted_answers": [
+        "Is he young?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S17",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 가방은 새 거야?",
+      "question_en": null,
+      "answer": "Is the bag new?",
+      "accepted_answers": [
+        "Is the bag new?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S18",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 펜들은 검정색이야?",
+      "question_en": null,
+      "answer": "Are your pens black?",
+      "accepted_answers": [
+        "Are your pens black?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S19",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "내 방은 크지 않아.",
+      "question_en": null,
+      "answer": "My room is not big.",
+      "accepted_answers": [
+        "My room isn't big.",
+        "My room is not big.",
+        "My room’s not big.",
+        "My room isn’t big."
+      ],
+      "error_focus": "negation",
+      "level": 3,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S20",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그녀는 나이가 많지 않아.",
+      "question_en": null,
+      "answer": "She is not old.",
+      "accepted_answers": [
+        "She isn't old.",
+        "She's not old.",
+        "She is not old.",
+        "She’s not old.",
+        "She isn’t old."
+      ],
+      "error_focus": "negation",
+      "level": 3,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S21",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 신발들은 싸지 않아.",
+      "question_en": null,
+      "answer": "The shoes are not cheap.",
+      "accepted_answers": [
+        "The shoes aren't cheap.",
+        "The shoes are not cheap.",
+        "The shoes aren’t cheap."
+      ],
+      "error_focus": "negation",
+      "level": 3,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S22",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "나는 키가 크지 않아.",
+      "question_en": null,
+      "answer": "I am not tall.",
+      "accepted_answers": [
+        "I'm not tall.",
+        "I am not tall.",
+        "I’m not tall."
+      ],
+      "error_focus": "negation",
+      "level": 3,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S23",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "우리는 바쁘지 않아.",
+      "question_en": null,
+      "answer": "We are not busy.",
+      "accepted_answers": [
+        "We aren't busy.",
+        "We're not busy.",
+        "We are not busy.",
+        "We’re not busy.",
+        "We aren’t busy."
+      ],
+      "error_focus": "negation",
+      "level": 3,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S24",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 차는 깨끗하지 않아.",
+      "question_en": null,
+      "answer": "The car is not clean.",
+      "accepted_answers": [
+        "The car isn't clean.",
+        "The car is not clean.",
+        "The car isn’t clean."
+      ],
+      "error_focus": "negation",
+      "level": 3,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S25",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "우리 언니는 친절해.",
+      "question_en": null,
+      "answer": "My sister is kind.",
+      "accepted_answers": [
+        "My sister is kind."
+      ],
+      "error_focus": "am_is_are",
+      "level": 3,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S26",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 가방들은 검정색이야.",
+      "question_en": null,
+      "answer": "The bags are black.",
+      "accepted_answers": [
+        "The bags are black."
+      ],
+      "error_focus": "am_is_are",
+      "level": 3,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S27",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너네 아빠 친절해?",
+      "question_en": null,
+      "answer": "Is your dad kind?",
+      "accepted_answers": [
+        "Is your dad kind?"
+      ],
+      "error_focus": "question_order",
+      "level": 3,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S28",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 방은 더러워?",
+      "question_en": null,
+      "answer": "Is the room dirty?",
+      "accepted_answers": [
+        "Is the room dirty?"
+      ],
+      "error_focus": "question_order",
+      "level": 3,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R01",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 싸.",
+      "question_en": "Is your bag cheap?",
+      "answer": "Yes, it is.",
+      "accepted_answers": [
+        "Yes, it is."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R02",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 깨끗하지 않아.",
+      "question_en": "Is your room clean?",
+      "answer": "No, it is not.",
+      "accepted_answers": [
+        "No, it isn't.",
+        "No, it is not."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R03",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 키 크셔.",
+      "question_en": "Is your mom tall?",
+      "answer": "Yes, she is.",
+      "accepted_answers": [
+        "Yes, she is."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R04",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 친절하지 않으셔.",
+      "question_en": "Is your dad kind?",
+      "answer": "No, he is not.",
+      "accepted_answers": [
+        "No, he isn't.",
+        "No, he is not."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R05",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 비싸.",
+      "question_en": "Are your shoes expensive?",
+      "answer": "Yes, they are.",
+      "accepted_answers": [
+        "Yes, they are."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R06",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 검정색 아니야.",
+      "question_en": "Are your pens black?",
+      "answer": "No, they are not.",
+      "accepted_answers": [
+        "No, they aren't.",
+        "No, they are not."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R07",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 바빠.",
+      "question_en": "Are you busy?",
+      "answer": "Yes, I am.",
+      "accepted_answers": [
+        "Yes, I'm.",
+        "Yes, I am."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R08",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 어리지 않아.",
+      "question_en": "Are you young?",
+      "answer": "No, I am not.",
+      "accepted_answers": [
+        "No, I'm not.",
+        "No, I am not."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R09",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 키 작아.",
+      "question_en": "Is she short?",
+      "answer": "Yes, she is.",
+      "accepted_answers": [
+        "Yes, she is."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R10",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 오래되지 않았어.",
+      "question_en": "Are they old?",
+      "answer": "No, they are not.",
+      "accepted_answers": [
+        "No, they aren't.",
+        "No, they are not."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R11",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 친절해.",
+      "question_en": "Is your sister kind?",
+      "answer": "Yes, she is.",
+      "accepted_answers": [
+        "Yes, she is."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-R12",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 느리지 않아.",
+      "question_en": "Is your car slow?",
+      "answer": "No, it is not.",
+      "accepted_answers": [
+        "No, it isn't.",
+        "No, it is not."
+      ],
+      "error_focus": "pronoun",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "pilot_reviewed"
+    },
+    {
+      "id": "Q1-S29",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "나는 배고파.",
+      "question_en": null,
+      "answer": "I am hungry.",
+      "accepted_answers": [
+        "I am hungry.",
+        "I’m hungry."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S30",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "나는 피곤하지 않아.",
+      "question_en": null,
+      "answer": "I am not tired.",
+      "accepted_answers": [
+        "I am not tired.",
+        "I’m not tired."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S31",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "우리는 바빠.",
+      "question_en": null,
+      "answer": "We are busy.",
+      "accepted_answers": [
+        "We are busy.",
+        "We’re busy."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S32",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "우리는 늦지 않았어.",
+      "question_en": null,
+      "answer": "We are not late.",
+      "accepted_answers": [
+        "We are not late.",
+        "We’re not late.",
+        "We aren’t late."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S33",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 애는 어려.",
+      "question_en": null,
+      "answer": "The kid is young.",
+      "accepted_answers": [
+        "The kid is young."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S34",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "우리 엄마는 친절하셔.",
+      "question_en": null,
+      "answer": "My mom is kind.",
+      "accepted_answers": [
+        "My mom is kind.",
+        "My mom’s kind."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S35",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "우리 강아지는 작아.",
+      "question_en": null,
+      "answer": "My dog is small.",
+      "accepted_answers": [
+        "My dog is small."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S36",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 가방은 새 거야.",
+      "question_en": null,
+      "answer": "Your bag is new.",
+      "accepted_answers": [
+        "Your bag is new.",
+        "Your bag’s new."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S37",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "내 신발은 낡았어.",
+      "question_en": null,
+      "answer": "My shoes are old.",
+      "accepted_answers": [
+        "My shoes are old."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S38",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "이 방은 깨끗해.",
+      "question_en": null,
+      "answer": "This room is clean.",
+      "accepted_answers": [
+        "This room is clean."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S39",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 방은 더러워.",
+      "question_en": null,
+      "answer": "That room is dirty.",
+      "accepted_answers": [
+        "That room is dirty."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S40",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 아이들은 키가 커.",
+      "question_en": null,
+      "answer": "The kids are tall.",
+      "accepted_answers": [
+        "The kids are tall."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S41",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "내 펜들은 검정색이야.",
+      "question_en": null,
+      "answer": "My pens are black.",
+      "accepted_answers": [
+        "My pens are black."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S42",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 차는 느려.",
+      "question_en": null,
+      "answer": "The car is slow.",
+      "accepted_answers": [
+        "The car is slow."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S43",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "이 신발은 비싸.",
+      "question_en": null,
+      "answer": "These shoes are expensive.",
+      "accepted_answers": [
+        "These shoes are expensive."
+      ],
+      "error_focus": "am_is_are",
+      "level": 1,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S44",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그녀는 바쁘지 않아.",
+      "question_en": null,
+      "answer": "She is not busy.",
+      "accepted_answers": [
+        "She is not busy.",
+        "She’s not busy.",
+        "She isn’t busy."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S45",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그는 키가 작지 않아.",
+      "question_en": null,
+      "answer": "He is not short.",
+      "accepted_answers": [
+        "He is not short.",
+        "He’s not short.",
+        "He isn’t short."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S46",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너는 늦지 않았어.",
+      "question_en": null,
+      "answer": "You are not late.",
+      "accepted_answers": [
+        "You are not late.",
+        "You’re not late.",
+        "You aren’t late."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S47",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그들은 어리지 않아.",
+      "question_en": null,
+      "answer": "They are not young.",
+      "accepted_answers": [
+        "They are not young.",
+        "They’re not young.",
+        "They aren’t young."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S48",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "우리 아빠는 나이가 많지 않으셔.",
+      "question_en": null,
+      "answer": "My dad is not old.",
+      "accepted_answers": [
+        "My dad is not old.",
+        "My dad’s not old.",
+        "My dad isn’t old."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S49",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "내 방은 더럽지 않아.",
+      "question_en": null,
+      "answer": "My room is not dirty.",
+      "accepted_answers": [
+        "My room is not dirty.",
+        "My room’s not dirty.",
+        "My room isn’t dirty."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S50",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 신발은 새것이 아니야.",
+      "question_en": null,
+      "answer": "Your shoes are not new.",
+      "accepted_answers": [
+        "Your shoes are not new.",
+        "Your shoes aren’t new."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S51",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "이 가방은 싸지 않아.",
+      "question_en": null,
+      "answer": "This bag is not cheap.",
+      "accepted_answers": [
+        "This bag is not cheap.",
+        "This bag isn’t cheap."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S52",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 아이들은 바쁘지 않아.",
+      "question_en": null,
+      "answer": "The kids are not busy.",
+      "accepted_answers": [
+        "The kids are not busy.",
+        "The kids aren’t busy."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S53",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "나는 키가 작지 않아.",
+      "question_en": null,
+      "answer": "I am not short.",
+      "accepted_answers": [
+        "I am not short.",
+        "I’m not short."
+      ],
+      "error_focus": "negation",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S54",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 방은 작아?",
+      "question_en": null,
+      "answer": "Is your room small?",
+      "accepted_answers": [
+        "Is your room small?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S55",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너네 아빠 바쁘셔?",
+      "question_en": null,
+      "answer": "Is your dad busy?",
+      "accepted_answers": [
+        "Is your dad busy?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S56",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너네 엄마 친절하셔?",
+      "question_en": null,
+      "answer": "Is your mom kind?",
+      "accepted_answers": [
+        "Is your mom kind?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S57",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 가방 비싸?",
+      "question_en": null,
+      "answer": "Is your bag expensive?",
+      "accepted_answers": [
+        "Is your bag expensive?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S58",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "니 신발 낡았어?",
+      "question_en": null,
+      "answer": "Are your shoes old?",
+      "accepted_answers": [
+        "Are your shoes old?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S59",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너는 배고파?",
+      "question_en": null,
+      "answer": "Are you hungry?",
+      "accepted_answers": [
+        "Are you hungry?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S60",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너는 피곤해?",
+      "question_en": null,
+      "answer": "Are you tired?",
+      "accepted_answers": [
+        "Are you tired?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S61",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "우리 늦었어?",
+      "question_en": null,
+      "answer": "Are we late?",
+      "accepted_answers": [
+        "Are we late?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S62",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 아이들 어려?",
+      "question_en": null,
+      "answer": "Are the kids young?",
+      "accepted_answers": [
+        "Are the kids young?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S63",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "이 방 더러워?",
+      "question_en": null,
+      "answer": "Is this room dirty?",
+      "accepted_answers": [
+        "Is this room dirty?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S64",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그 차 느려?",
+      "question_en": null,
+      "answer": "Is the car slow?",
+      "accepted_answers": [
+        "Is the car slow?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S65",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "이 펜들 파란색이야?",
+      "question_en": null,
+      "answer": "Are these pens blue?",
+      "accepted_answers": [
+        "Are these pens blue?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S66",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그녀는 바빠?",
+      "question_en": null,
+      "answer": "Is she busy?",
+      "accepted_answers": [
+        "Is she busy?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S67",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "그들은 친절해?",
+      "question_en": null,
+      "answer": "Are they kind?",
+      "accepted_answers": [
+        "Are they kind?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-S68",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "sentence",
+      "response_type": null,
+      "prompt_ko": "너는 키가 커?",
+      "question_en": null,
+      "answer": "Are you tall?",
+      "accepted_answers": [
+        "Are you tall?"
+      ],
+      "error_focus": "question_order",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R13",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 배고파.",
+      "question_en": "Are you hungry?",
+      "answer": "Yes, I am.",
+      "accepted_answers": [
+        "Yes, I am."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R14",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 피곤하지 않아.",
+      "question_en": "Are you tired?",
+      "answer": "No, I am not.",
+      "accepted_answers": [
+        "No, I am not."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R15",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 바빠.",
+      "question_en": "Is your dad busy?",
+      "answer": "Yes, he is.",
+      "accepted_answers": [
+        "Yes, he is."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R16",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 바쁘지 않으셔.",
+      "question_en": "Is your mom busy?",
+      "answer": "No, she is not.",
+      "accepted_answers": [
+        "No, she is not."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R17",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 작아.",
+      "question_en": "Is your dog small?",
+      "answer": "Yes, it is.",
+      "accepted_answers": [
+        "Yes, it is."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R18",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 크지 않아.",
+      "question_en": "Is your dog big?",
+      "answer": "No, it is not.",
+      "accepted_answers": [
+        "No, it is not."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R19",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 새 거야.",
+      "question_en": "Is your bag new?",
+      "answer": "Yes, it is.",
+      "accepted_answers": [
+        "Yes, it is."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R20",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 새 거 아니야.",
+      "question_en": "Are your shoes new?",
+      "answer": "No, they are not.",
+      "accepted_answers": [
+        "No, they are not."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R21",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 깨끗해.",
+      "question_en": "Is your room clean?",
+      "answer": "Yes, it is.",
+      "accepted_answers": [
+        "Yes, it is."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R22",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 더럽지 않아.",
+      "question_en": "Is this room dirty?",
+      "answer": "No, it is not.",
+      "accepted_answers": [
+        "No, it is not."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R23",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 친절해.",
+      "question_en": "Are your friends kind?",
+      "answer": "Yes, they are.",
+      "accepted_answers": [
+        "Yes, they are."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R24",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 어리지 않아.",
+      "question_en": "Are the kids young?",
+      "answer": "No, they are not.",
+      "accepted_answers": [
+        "No, they are not."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R25",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 키 커.",
+      "question_en": "Is your dad tall?",
+      "answer": "Yes, he is.",
+      "accepted_answers": [
+        "Yes, he is."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R26",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 키가 크지 않으셔.",
+      "question_en": "Is your mom tall?",
+      "answer": "No, she is not.",
+      "accepted_answers": [
+        "No, she is not."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R27",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 비싸.",
+      "question_en": "Is this bag expensive?",
+      "answer": "Yes, it is.",
+      "accepted_answers": [
+        "Yes, it is."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R28",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 비싸지 않아.",
+      "question_en": "Are these shoes expensive?",
+      "answer": "No, they are not.",
+      "accepted_answers": [
+        "No, they are not."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R29",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 검정색이야.",
+      "question_en": "Are your pens black?",
+      "answer": "Yes, they are.",
+      "accepted_answers": [
+        "Yes, they are."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R30",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 파란색 아니야.",
+      "question_en": "Is your pen blue?",
+      "answer": "No, it is not.",
+      "accepted_answers": [
+        "No, it is not."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R31",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 응, 늦었어.",
+      "question_en": "Are we late?",
+      "answer": "Yes, we are.",
+      "accepted_answers": [
+        "Yes, we are."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    },
+    {
+      "id": "Q1-R32",
+      "quest": 1,
+      "grammar": "be_adjective",
+      "type": "response",
+      "response_type": "guided",
+      "prompt_ko": "질문을 듣고 대답해 봐. 아니, 늦지 않았어.",
+      "question_en": "Are you late?",
+      "answer": "No, I am not.",
+      "accepted_answers": [
+        "No, I am not."
+      ],
+      "error_focus": "short_answer",
+      "level": 2,
+      "group_id": null,
+      "source_tag": "expanded_original"
+    }
+  ],
+  "remediation": {
+    "am_is_are": [
+      {
+        "prompt_ko": "그녀는 친절해.",
+        "answer": "She is kind.",
+        "accepted_answers": [
+          "She's kind.",
+          "She is kind."
+        ]
+      },
+      {
+        "prompt_ko": "그들은 친절해.",
+        "answer": "They are kind.",
+        "accepted_answers": [
+          "They're kind.",
+          "They are kind."
+        ]
+      },
+      {
+        "prompt_ko": "나는 친절해.",
+        "answer": "I am kind.",
+        "accepted_answers": [
+          "I'm kind.",
+          "I am kind."
+        ]
+      }
+    ],
+    "question_order": [
+      {
+        "prompt_ko": "그는 어려.",
+        "answer": "He is young.",
+        "accepted_answers": [
+          "He's young.",
+          "He is young."
+        ]
+      },
+      {
+        "prompt_ko": "그는 어려?",
+        "answer": "Is he young?",
+        "accepted_answers": [
+          "Is he young?"
+        ]
+      },
+      {
+        "prompt_ko": "그는 어리지 않아.",
+        "answer": "He is not young.",
+        "accepted_answers": [
+          "He isn't young.",
+          "He's not young.",
+          "He is not young."
+        ]
+      }
+    ],
+    "negation": [
+      {
+        "prompt_ko": "그 가방은 비싸.",
+        "answer": "The bag is expensive.",
+        "accepted_answers": [
+          "The bag is expensive."
+        ]
+      },
+      {
+        "prompt_ko": "그 가방은 비싸?",
+        "answer": "Is the bag expensive?",
+        "accepted_answers": [
+          "Is the bag expensive?"
+        ]
+      },
+      {
+        "prompt_ko": "그 가방은 비싸지 않아.",
+        "answer": "The bag is not expensive.",
+        "accepted_answers": [
+          "The bag isn't expensive.",
+          "The bag is not expensive."
+        ]
+      }
+    ],
+    "pronoun": [
+      {
+        "prompt_ko": "너네 아빠 키 커?",
+        "answer": "Is your dad tall?",
+        "accepted_answers": [
+          "Is your dad tall?"
+        ]
+      },
+      {
+        "prompt_ko": "응, 키 크셔.",
+        "answer": "Yes, he is.",
+        "accepted_answers": [
+          "Yes, he is."
+        ]
+      },
+      {
+        "prompt_ko": "아니, 키 크지 않으셔.",
+        "answer": "No, he is not.",
+        "accepted_answers": [
+          "No, he isn't.",
+          "No, he is not."
+        ]
+      }
+    ]
+  },
+  "grading_notes": [
+    "음성 인식의 구두점/대소문자는 무시",
+    "축약형 및 비축약형 허용",
+    "의미가 같은 다른 표현은 자동 인정하지 말고 별도 검수",
+    "오답 유형 분류가 불확실하면 보충 훈련을 강제하지 않음",
+    "보충 문제는 기본 20문항 및 점수와 별도로 처리 권장",
+    "연결 그룹과 앱 고유 스키마는 기존 앱 확인 후 확정",
+    "목표 점수 20점 기본, 설정 가능. 고정 문항 수 없음. 보충 문항은 점수 미합산."
+  ]
+}
+
