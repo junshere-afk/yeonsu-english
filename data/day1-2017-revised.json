@@ -1,0 +1,708 @@
+{
+  "schema_version": "speed-speaking-day1-lesson-v1",
+  "source": {
+    "file": "기초문법 2017.docx",
+    "section": "Level 1 / Day 1 / Be동사",
+    "pages": "교재 인쇄 페이지 3~8 중 Day 1 (파일 페이지 2~5)",
+    "preserve_korean": "영어 정답과 의미가 일치하는 경우 원문 유지; 단수·복수 등 불일치 시 한국어 수정"
+  },
+  "lesson_id": "day-01",
+  "title": "Day 1 — Be동사",
+  "sequence": [
+    "new_words",
+    "warming_up",
+    "question_translation",
+    "answer_reaction"
+  ],
+  "new_words": {
+    "items": [
+      {
+        "id": "NW01",
+        "word": "beautiful",
+        "ipa": "/ˈbjuːtɪfəl/",
+        "meaning_ko": "아름다운",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW02",
+        "word": "short",
+        "ipa": "/ʃɔːrt/",
+        "meaning_ko": "키가 작은",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW03",
+        "word": "blue",
+        "ipa": "/bluː/",
+        "meaning_ko": "파란색의",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW04",
+        "word": "expensive",
+        "ipa": "/ɪkˈspensɪv/",
+        "meaning_ko": "비싼",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW05",
+        "word": "small",
+        "ipa": "/smɔːl/",
+        "meaning_ko": "작은",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW06",
+        "word": "clean",
+        "ipa": "/kliːn/",
+        "meaning_ko": "깨끗한",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW07",
+        "word": "slow",
+        "ipa": "/sloʊ/",
+        "meaning_ko": "느린",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW08",
+        "word": "dirty",
+        "ipa": "/ˈdɜːrti/",
+        "meaning_ko": "더러운",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW09",
+        "word": "cheap",
+        "ipa": "/tʃiːp/",
+        "meaning_ko": "싼",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW10",
+        "word": "tall",
+        "ipa": "/tɔːl/",
+        "meaning_ko": "키가 큰",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW11",
+        "word": "black",
+        "ipa": "/blæk/",
+        "meaning_ko": "검정색의",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW12",
+        "word": "young",
+        "ipa": "/jʌŋ/",
+        "meaning_ko": "젊은",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW13",
+        "word": "old",
+        "ipa": "/oʊld/",
+        "meaning_ko": "나이가 많은, 오래된",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW14",
+        "word": "kind",
+        "ipa": "/kaɪnd/",
+        "meaning_ko": "친절한",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW15",
+        "word": "fat",
+        "ipa": "/fæt/",
+        "meaning_ko": "뚱뚱한",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW16",
+        "word": "new",
+        "ipa": "/nuː/",
+        "meaning_ko": "새로운",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW17",
+        "word": "big",
+        "ipa": "/bɪɡ/",
+        "meaning_ko": "큰",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW18",
+        "word": "sister",
+        "ipa": "/ˈsɪstər/",
+        "meaning_ko": "여동생, 자매",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW19",
+        "word": "room",
+        "ipa": "/ruːm/",
+        "meaning_ko": "방",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW20",
+        "word": "boss",
+        "ipa": "/bɔːs/",
+        "meaning_ko": "사장님, 상사",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW21",
+        "word": "mother",
+        "ipa": "/ˈmʌðər/",
+        "meaning_ko": "어머니",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW22",
+        "word": "cell phone",
+        "ipa": "/ˈsel foʊn/",
+        "meaning_ko": "휴대전화",
+        "repeat_count": 2
+      }
+    ],
+    "timing_ms": {
+      "initial_display": 500,
+      "meaning_reveal_after_first_audio": 1000,
+      "meaning_reveal_after_second_audio": 1000
+    },
+    "per_word_flow": [
+      "word_and_ipa_only",
+      "wait_500ms",
+      "show_repeat_prompt_and_speak",
+      "wait_1000ms_then_show_meaning_right",
+      "hide_meaning",
+      "show_repeat_prompt_and_speak",
+      "wait_1000ms_then_show_meaning_right",
+      "next_word"
+    ],
+    "speech_text_field": "word"
+  },
+  "warming_up": {
+    "items": [
+      {
+        "id": "W01",
+        "prompt_ko_original": "제 여동생은 아름다워요.",
+        "answer": "My sister is beautiful.",
+        "accepted_answers": [
+          "My sister is beautiful"
+        ]
+      },
+      {
+        "id": "W02",
+        "prompt_ko_original": "그녀는 키가 작아요.",
+        "answer": "She is short.",
+        "accepted_answers": [
+          "She is short",
+          "She's short",
+          "she's short"
+        ]
+      },
+      {
+        "id": "W03",
+        "prompt_ko_original": "제 펜은 파란색 이에요.",
+        "answer": "My pen is blue.",
+        "accepted_answers": [
+          "My pen is blue"
+        ]
+      },
+      {
+        "id": "W04",
+        "prompt_ko_original": "그것은 싸지 않아요.",
+        "answer": "It is not cheap.",
+        "accepted_answers": [
+          "It is not cheap",
+          "It isn't cheap",
+          "it's not cheap"
+        ]
+      },
+      {
+        "id": "W05",
+        "prompt_ko_original": "제 방은 작아요.",
+        "answer": "My room is small.",
+        "accepted_answers": [
+          "My room is small"
+        ]
+      },
+      {
+        "id": "W06",
+        "prompt_ko_original": "그것은 깨끗하지 않아요.",
+        "answer": "It is not clean.",
+        "accepted_answers": [
+          "It is not clean",
+          "It isn't clean",
+          "it's not clean"
+        ]
+      },
+      {
+        "id": "W07",
+        "prompt_ko_original": "그의 차는 느려요.",
+        "answer": "His car is slow.",
+        "accepted_answers": [
+          "His car is slow"
+        ]
+      },
+      {
+        "id": "W08",
+        "prompt_ko_original": "그것은 더러워요.",
+        "answer": "It is dirty.",
+        "accepted_answers": [
+          "It is dirty",
+          "it's dirty"
+        ]
+      },
+      {
+        "id": "W09",
+        "prompt_ko_original": "당신의 가방은 싼가요?",
+        "answer": "Is your bag cheap?",
+        "accepted_answers": [
+          "Is your bag cheap"
+        ]
+      },
+      {
+        "id": "W10",
+        "prompt_ko_original": "예, 그것은 싸요.",
+        "answer": "Yes, it is cheap.",
+        "accepted_answers": [
+          "Yes, it is cheap",
+          "Yes, it's cheap"
+        ]
+      },
+      {
+        "id": "W11",
+        "prompt_ko_original": "당신의 방은 작나요?",
+        "answer": "Is your room small?",
+        "accepted_answers": [
+          "Is your room small"
+        ]
+      },
+      {
+        "id": "W12",
+        "prompt_ko_original": "아니요, 그것은 작지 않아요.",
+        "answer": "No, it is not small.",
+        "accepted_answers": [
+          "No, it is not small",
+          "No, it isn't small",
+          "No, it's not small"
+        ]
+      }
+    ],
+    "input_modes": [
+      "typing",
+      "speech"
+    ],
+    "feedback": "brief"
+  },
+  "question_translation": {
+    "items": [
+      {
+        "id": "Q01",
+        "prompt_ko_original": "당신의 어머니는 아름다우신 가요?",
+        "question_en": "Is your mother beautiful?",
+        "accepted_questions": [
+          "Is your mother beautiful"
+        ],
+        "answer_yes": "Yes, she is beautiful.",
+        "answer_no": "No, she is not beautiful.",
+        "accepted_yes": [
+          "Yes, she is beautiful",
+          "Yes, she's beautiful"
+        ],
+        "accepted_no": [
+          "No, she is not beautiful",
+          "No, she isn't beautiful",
+          "No, she's not beautiful"
+        ]
+      },
+      {
+        "id": "Q02",
+        "prompt_ko_original": "그녀는 키가 작으신가요?",
+        "question_en": "Is she short?",
+        "accepted_questions": [
+          "Is she short"
+        ],
+        "answer_yes": "Yes, she is short.",
+        "answer_no": "No, she is not short.",
+        "accepted_yes": [
+          "Yes, she is short",
+          "Yes, she's short"
+        ],
+        "accepted_no": [
+          "No, she is not short",
+          "No, she isn't short",
+          "No, she's not short"
+        ]
+      },
+      {
+        "id": "Q03",
+        "prompt_ko_original": "당신의 아버지는 키가 크신가요?",
+        "question_en": "Is your father tall?",
+        "accepted_questions": [
+          "Is your father tall"
+        ],
+        "answer_yes": "Yes, he is tall.",
+        "answer_no": "No, he is not tall.",
+        "accepted_yes": [
+          "Yes, he is tall",
+          "Yes, he's tall"
+        ],
+        "accepted_no": [
+          "No, he is not tall",
+          "No, he isn't tall",
+          "No, he's not tall"
+        ]
+      },
+      {
+        "id": "Q04",
+        "prompt_ko_original": "그는 연세가 많으신가요?",
+        "question_en": "Is he old?",
+        "accepted_questions": [
+          "Is he old"
+        ],
+        "answer_yes": "Yes, he is old.",
+        "answer_no": "No, he is not old.",
+        "accepted_yes": [
+          "Yes, he is old",
+          "Yes, he's old"
+        ],
+        "accepted_no": [
+          "No, he is not old",
+          "No, he isn't old",
+          "No, he's not old"
+        ]
+      },
+      {
+        "id": "Q05",
+        "prompt_ko_original": "당신의 펜들은 검정색 인가요?",
+        "question_en": "Are your pens black?",
+        "accepted_questions": [
+          "Are your pens black"
+        ],
+        "answer_yes": "Yes, they are black.",
+        "answer_no": "No, they are not black.",
+        "accepted_yes": [
+          "Yes, they are black",
+          "Yes, they're black"
+        ],
+        "accepted_no": [
+          "No, they are not black",
+          "No, they aren't black",
+          "No, they're not black"
+        ]
+      },
+      {
+        "id": "Q06",
+        "prompt_ko_original": "그것들은 싼가요?",
+        "question_en": "Are they cheap?",
+        "accepted_questions": [
+          "Are they cheap"
+        ],
+        "answer_yes": "Yes, they are cheap.",
+        "answer_no": "No, they are not cheap.",
+        "accepted_yes": [
+          "Yes, they are cheap",
+          "Yes, they're cheap"
+        ],
+        "accepted_no": [
+          "No, they are not cheap",
+          "No, they aren't cheap",
+          "No, they're not cheap"
+        ]
+      },
+      {
+        "id": "Q07",
+        "prompt_ko_original": "당신의 남동생은 젊은가요?",
+        "question_en": "Is your brother young?",
+        "accepted_questions": [
+          "Is your brother young"
+        ],
+        "answer_yes": "Yes, he is young.",
+        "answer_no": "No, he is not young.",
+        "accepted_yes": [
+          "Yes, he is young",
+          "Yes, he's young"
+        ],
+        "accepted_no": [
+          "No, he is not young",
+          "No, he isn't young",
+          "No, he's not young"
+        ]
+      },
+      {
+        "id": "Q08",
+        "prompt_ko_original": "그는 친절한가요?",
+        "question_en": "Is he kind?",
+        "accepted_questions": [
+          "Is he kind"
+        ],
+        "answer_yes": "Yes, he is kind.",
+        "answer_no": "No, he is not kind.",
+        "accepted_yes": [
+          "Yes, he is kind",
+          "Yes, he's kind"
+        ],
+        "accepted_no": [
+          "No, he is not kind",
+          "No, he isn't kind",
+          "No, he's not kind"
+        ]
+      },
+      {
+        "id": "Q09",
+        "prompt_ko_original": "당신의 신발은 비싼가요?",
+        "question_en": "Are your shoes expensive?",
+        "accepted_questions": [
+          "Are your shoes expensive"
+        ],
+        "answer_yes": "Yes, they are expensive.",
+        "answer_no": "No, they are not expensive.",
+        "accepted_yes": [
+          "Yes, they are expensive",
+          "Yes, they're expensive"
+        ],
+        "accepted_no": [
+          "No, they are not expensive",
+          "No, they aren't expensive",
+          "No, they're not expensive"
+        ]
+      },
+      {
+        "id": "Q10",
+        "prompt_ko_original": "그것들은 오래됐나요?",
+        "question_en": "Are they old?",
+        "accepted_questions": [
+          "Are they old"
+        ],
+        "answer_yes": "Yes, they are old.",
+        "answer_no": "No, they are not old.",
+        "accepted_yes": [
+          "Yes, they are old",
+          "Yes, they're old"
+        ],
+        "accepted_no": [
+          "No, they are not old",
+          "No, they aren't old",
+          "No, they're not old"
+        ]
+      },
+      {
+        "id": "Q11",
+        "prompt_ko_original": "당신의 사장님은 친절한가요?",
+        "question_en": "Is your boss kind?",
+        "accepted_questions": [
+          "Is your boss kind"
+        ],
+        "answer_yes": "Yes, he is kind.",
+        "answer_no": "No, he is not kind.",
+        "accepted_yes": [
+          "Yes, he is kind",
+          "Yes, he's kind"
+        ],
+        "accepted_no": [
+          "No, he is not kind",
+          "No, he isn't kind",
+          "No, he's not kind"
+        ]
+      },
+      {
+        "id": "Q12",
+        "prompt_ko_original": "그는 젊은가요?",
+        "question_en": "Is he young?",
+        "accepted_questions": [
+          "Is he young"
+        ],
+        "answer_yes": "Yes, he is young.",
+        "answer_no": "No, he is not young.",
+        "accepted_yes": [
+          "Yes, he is young",
+          "Yes, he's young"
+        ],
+        "accepted_no": [
+          "No, he is not young",
+          "No, he isn't young",
+          "No, he's not young"
+        ]
+      },
+      {
+        "id": "Q13",
+        "prompt_ko_original": "당신의 어머니는 뚱뚱한가요?",
+        "question_en": "Is your mother fat?",
+        "accepted_questions": [
+          "Is your mother fat"
+        ],
+        "answer_yes": "Yes, she is fat.",
+        "answer_no": "No, she is not fat.",
+        "accepted_yes": [
+          "Yes, she is fat",
+          "Yes, she's fat"
+        ],
+        "accepted_no": [
+          "No, she is not fat",
+          "No, she isn't fat",
+          "No, she's not fat"
+        ]
+      },
+      {
+        "id": "Q14",
+        "prompt_ko_original": "그녀는 키가 큰가요?",
+        "question_en": "Is she tall?",
+        "accepted_questions": [
+          "Is she tall"
+        ],
+        "answer_yes": "Yes, she is tall.",
+        "answer_no": "No, she is not tall.",
+        "accepted_yes": [
+          "Yes, she is tall",
+          "Yes, she's tall"
+        ],
+        "accepted_no": [
+          "No, she is not tall",
+          "No, she isn't tall",
+          "No, she's not tall"
+        ]
+      },
+      {
+        "id": "Q15",
+        "prompt_ko_original": "당신의 핸드폰은 비싼가요?",
+        "question_en": "Is your cell phone expensive?",
+        "accepted_questions": [
+          "Is your cell phone expensive"
+        ],
+        "answer_yes": "Yes, it is expensive.",
+        "answer_no": "No, it is not expensive.",
+        "accepted_yes": [
+          "Yes, it is expensive",
+          "Yes, it's expensive"
+        ],
+        "accepted_no": [
+          "No, it is not expensive",
+          "No, it isn't expensive",
+          "No, it's not expensive"
+        ]
+      },
+      {
+        "id": "Q16",
+        "prompt_ko_original": "그것은 새 것 인가요?",
+        "question_en": "Is it new?",
+        "accepted_questions": [
+          "Is it new"
+        ],
+        "answer_yes": "Yes, it is new.",
+        "answer_no": "No, it is not new.",
+        "accepted_yes": [
+          "Yes, it is new",
+          "Yes, it's new"
+        ],
+        "accepted_no": [
+          "No, it is not new",
+          "No, it isn't new",
+          "No, it's not new"
+        ]
+      },
+      {
+        "id": "Q17",
+        "prompt_ko_original": "당신의 방은 큰가요?",
+        "question_en": "Is your room big?",
+        "accepted_questions": [
+          "Is your room big"
+        ],
+        "answer_yes": "Yes, it is big.",
+        "answer_no": "No, it is not big.",
+        "accepted_yes": [
+          "Yes, it is big",
+          "Yes, it's big"
+        ],
+        "accepted_no": [
+          "No, it is not big",
+          "No, it isn't big",
+          "No, it's not big"
+        ]
+      },
+      {
+        "id": "Q18",
+        "prompt_ko_original": "그것은 깨끗 한가요?",
+        "question_en": "Is it clean?",
+        "accepted_questions": [
+          "Is it clean"
+        ],
+        "answer_yes": "Yes, it is clean.",
+        "answer_no": "No, it is not clean.",
+        "accepted_yes": [
+          "Yes, it is clean",
+          "Yes, it's clean"
+        ],
+        "accepted_no": [
+          "No, it is not clean",
+          "No, it isn't clean",
+          "No, it's not clean"
+        ]
+      }
+    ],
+    "prompt_field": "prompt_ko_original",
+    "answer_field": "question_en",
+    "feedback_duration_ms": 1000,
+    "after_correct": "advance_to_next_question",
+    "after_all": "answer_reaction"
+  },
+  "answer_reaction": {
+    "question_ids_in_order": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18"
+    ],
+    "prompt": "audio_only",
+    "show_question_text": false,
+    "require_full_sentence": true,
+    "accept_yes_or_no": true,
+    "check_against": [
+      "accepted_yes",
+      "accepted_no"
+    ],
+    "feedback_duration_ms": 1000
+  },
+  "validation_rules": {
+    "normalize": [
+      "case_insensitive",
+      "trim_whitespace",
+      "ignore_terminal_punctuation",
+      "normalize_curly_apostrophe",
+      "collapse_spaces"
+    ],
+    "accept_contractions": true,
+    "require_complete_subject_verb_adjective": true,
+    "yes_no_must_agree_with_verb_polarity": true,
+    "do_not_accept_short_yes_no_only": true
+  },
+  "notes": [
+    "원본 교재에서 warm up 12문장과 질문 만들기 18문항을 순서대로 수록",
+    "질문 답변의 yes/no 원문은 교재에 있는 완전한 문장 사용",
+    "단어 한국어 뜻과 IPA는 앱용으로 보충한 메타데이터이며 교재 원문 그대로의 전사가 아님",
+    "발화 인식과 TTS는 Speed Speaking 앱 런타임에서 구현 필요",
+    "Q05 한국어 단수·복수 불일치 수정: 당신의 펜은 → 당신의 펜들은 (Are your pens black?)."
+  ]
+}
