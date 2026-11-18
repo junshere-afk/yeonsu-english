@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import { grade } from '../grader.js';
 
 const lesson = JSON.parse(readFileSync(new URL('../data/day1-2017-revised.json', import.meta.url)));
+const lessonCode = readFileSync(new URL('../day1.js', import.meta.url), 'utf8');
 assert.deepEqual(lesson.sequence, ['new_words', 'warming_up', 'question_translation', 'answer_reaction']);
 assert.equal(lesson.new_words.items.length, 22);
 assert.ok(lesson.new_words.items.every(item => item.word && item.ipa && item.meaning_ko && item.repeat_count === 2));
@@ -10,6 +11,10 @@ assert.equal(lesson.warming_up.items.length, 12);
 assert.equal(lesson.question_translation.items.length, 18);
 assert.deepEqual(lesson.answer_reaction.question_ids_in_order, lesson.question_translation.items.map(item => item.id));
 assert.ok(lesson.question_translation.items.every(item => item.question_en && item.answer_yes && item.answer_no));
+assert.match(lessonCode, /delay\(1300,/);
+assert.match(lessonCode, /possibleRecognitionMismatch/);
+assert.match(lessonCode, /input\?\.focus\(\)/);
+assert.match(lessonCode, /state\.awaitingConfirm=true/);
 for (const item of lesson.warming_up.items) assert.equal(grade(item.answer, { answer:item.answer, alternatives:item.accepted_answers }).result, 'correct');
 for (const item of lesson.question_translation.items) {
   assert.equal(grade(item.question_en, { answer:item.question_en, alternatives:item.accepted_questions }).result, 'correct');
