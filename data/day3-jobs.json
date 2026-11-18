@@ -1,0 +1,665 @@
+{
+  "schema_version": "speed-speaking-lesson-v1",
+  "source": {
+    "file": "기초문법 2017.docx",
+    "section": "Level 1 / Day 2 / Be동사2",
+    "pages": "파일 페이지 8~11",
+    "preserve_korean": "영어 정답과 불일치할 때만 한국어 수정"
+  },
+  "lesson_id": "day-03",
+  "title": "Day 3 — Be동사2 (직업과 관사)",
+  "sequence": [
+    "new_words",
+    "warming_up",
+    "question_translation",
+    "answer_reaction"
+  ],
+  "new_words": {
+    "items": [
+      {
+        "id": "NW01",
+        "word": "doctor",
+        "ipa": "/ˈdɑːktər/",
+        "meaning_ko": "의사",
+        "repeat_count": 2,
+        "accepted_words": [
+          "doctor"
+        ]
+      },
+      {
+        "id": "NW02",
+        "word": "student",
+        "ipa": "/ˈstuːdənt/",
+        "meaning_ko": "학생",
+        "repeat_count": 2,
+        "accepted_words": [
+          "student"
+        ]
+      },
+      {
+        "id": "NW03",
+        "word": "book",
+        "ipa": "/bʊk/",
+        "meaning_ko": "책",
+        "repeat_count": 2,
+        "accepted_words": [
+          "book"
+        ]
+      },
+      {
+        "id": "NW04",
+        "word": "fly",
+        "ipa": "/flaɪ/",
+        "meaning_ko": "날다",
+        "repeat_count": 2,
+        "accepted_words": [
+          "fly"
+        ]
+      },
+      {
+        "id": "NW05",
+        "word": "younger brother",
+        "ipa": "/ˈjʌŋɡər ˈbrʌðər/",
+        "meaning_ko": "남동생",
+        "repeat_count": 2,
+        "accepted_words": [
+          "brother"
+        ]
+      },
+      {
+        "id": "NW06",
+        "word": "lawyer",
+        "ipa": "/ˈlɔːjər/",
+        "meaning_ko": "변호사",
+        "repeat_count": 2,
+        "accepted_words": [
+          "lawyer"
+        ]
+      },
+      {
+        "id": "NW07",
+        "word": "hotel",
+        "ipa": "/hoʊˈtel/",
+        "meaning_ko": "호텔",
+        "repeat_count": 2,
+        "accepted_words": [
+          "hotel"
+        ]
+      },
+      {
+        "id": "NW08",
+        "word": "teacher",
+        "ipa": "/ˈtiːtʃər/",
+        "meaning_ko": "선생님",
+        "repeat_count": 2,
+        "accepted_words": [
+          "teacher"
+        ]
+      },
+      {
+        "id": "NW09",
+        "word": "man",
+        "ipa": "/mæn/",
+        "meaning_ko": "남자",
+        "repeat_count": 2,
+        "accepted_words": [
+          "man"
+        ]
+      },
+      {
+        "id": "NW10",
+        "word": "nurse",
+        "ipa": "/nɜːrs/",
+        "meaning_ko": "간호사",
+        "repeat_count": 2,
+        "accepted_words": [
+          "nurse"
+        ]
+      },
+      {
+        "id": "NW11",
+        "word": "office worker",
+        "ipa": "/ˈɔːfɪs ˈwɜːrkər/",
+        "meaning_ko": "회사원",
+        "repeat_count": 2,
+        "accepted_words": [
+          "office worker"
+        ]
+      }
+    ],
+    "timing_ms": {
+      "initial_display": 500,
+      "meaning_reveal_after_first_audio": 1000,
+      "meaning_reveal_after_second_audio": 1000
+    },
+    "per_word_flow": [
+      "word_and_ipa_only",
+      "wait_500ms",
+      "show_repeat_prompt_and_speak",
+      "wait_1000ms_then_show_meaning_right",
+      "hide_meaning",
+      "show_repeat_prompt_and_speak",
+      "wait_1000ms_then_show_meaning_right",
+      "next_word"
+    ],
+    "speech_text_field": "word"
+  },
+  "warming_up": {
+    "items": [
+      {
+        "id": "W01",
+        "prompt_ko_original": "그는 의사 에요.",
+        "answer": "He is a doctor.",
+        "accepted_answers": [
+          "He is a doctor",
+          "he's a doctor"
+        ]
+      },
+      {
+        "id": "W02",
+        "prompt_ko_original": "그는 의사가 아니에요.",
+        "answer": "He is not a doctor.",
+        "accepted_answers": [
+          "He is not a doctor",
+          "he isn't a doctor",
+          "he's not a doctor"
+        ]
+      },
+      {
+        "id": "W03",
+        "prompt_ko_original": "저는 의사 에요.",
+        "answer": "I am a doctor.",
+        "accepted_answers": [
+          "I am a doctor",
+          "I'm a doctor"
+        ]
+      },
+      {
+        "id": "W04",
+        "prompt_ko_original": "저는 의사가 아니에요.",
+        "answer": "I am not a doctor.",
+        "accepted_answers": [
+          "I am not a doctor",
+          "I'm not a doctor"
+        ]
+      },
+      {
+        "id": "W05",
+        "prompt_ko_original": "그것은 펜 이에요.",
+        "answer": "It is a pen.",
+        "accepted_answers": [
+          "It is a pen"
+        ]
+      },
+      {
+        "id": "W06",
+        "prompt_ko_original": "그것은 펜이 아니에요.",
+        "answer": "It is not a pen.",
+        "accepted_answers": [
+          "It is not a pen"
+        ]
+      },
+      {
+        "id": "W07",
+        "prompt_ko_original": "당신은 의사 인가요?",
+        "answer": "Are you a doctor?",
+        "accepted_answers": [
+          "Are you a doctor?"
+        ]
+      },
+      {
+        "id": "W08",
+        "prompt_ko_original": "아니요, 저는 의사가 아니에요.",
+        "answer": "No, I am not a doctor.",
+        "accepted_answers": [
+          "No, I am not a doctor",
+          "No, I'm not a doctor"
+        ]
+      },
+      {
+        "id": "W09",
+        "prompt_ko_original": "그것들은 책 이에요?",
+        "answer": "Are they books?",
+        "accepted_answers": [
+          "Are they books?"
+        ]
+      },
+      {
+        "id": "W10",
+        "prompt_ko_original": "네, 그것들은 책 이에요.",
+        "answer": "Yes, they are books.",
+        "accepted_answers": [
+          "Yes, they are books",
+          "Yes, they're books"
+        ]
+      }
+    ],
+    "input_modes": [
+      "typing",
+      "speech"
+    ],
+    "feedback": "brief"
+  },
+  "question_translation": {
+    "items": [
+      {
+        "id": "Q01",
+        "prompt_ko_original": "당신은 학생인가요?",
+        "question_en": "Are you a student?",
+        "accepted_questions": [
+          "Are you a student?"
+        ],
+        "answer_yes": "Yes, I am a student.",
+        "answer_no": "No, I am not a student.",
+        "accepted_yes": [
+          "Yes, I am a student",
+          "Yes, I'm a student"
+        ],
+        "accepted_no": [
+          "No, I am not a student",
+          "No, I'm not a student"
+        ]
+      },
+      {
+        "id": "Q02",
+        "prompt_ko_original": "당신의 여동생은 학생인가요?",
+        "question_en": "Is your younger sister a student?",
+        "accepted_questions": [
+          "Is your younger sister a student?",
+          "Is your sister a student?"
+        ],
+        "answer_yes": "Yes, she is a student.",
+        "answer_no": "No, she is not a student.",
+        "accepted_yes": [
+          "Yes, she is a student",
+          "Yes, she's a student"
+        ],
+        "accepted_no": [
+          "No, she is not a student",
+          "No, she isn't a student",
+          "No, she's not a student",
+          "No, she'sn't a student"
+        ]
+      },
+      {
+        "id": "Q03",
+        "prompt_ko_original": "그녀는 의사인가요?",
+        "question_en": "Is she a doctor?",
+        "accepted_questions": [
+          "Is she a doctor?"
+        ],
+        "answer_yes": "Yes, she is a doctor.",
+        "answer_no": "No, she is not a doctor.",
+        "accepted_yes": [
+          "Yes, she is a doctor",
+          "Yes, she's a doctor"
+        ],
+        "accepted_no": [
+          "No, she is not a doctor",
+          "No, she isn't a doctor",
+          "No, she's not a doctor",
+          "No, she'sn't a doctor"
+        ]
+      },
+      {
+        "id": "Q04",
+        "prompt_ko_original": "당신의 남동생들은 의사인가요?",
+        "question_en": "Are your younger brothers doctors?",
+        "accepted_questions": [
+          "Are your younger brothers doctors?",
+          "Are your brothers doctors?",
+          "Are your brothers doctors?"
+        ],
+        "answer_yes": "Yes, they are doctors.",
+        "answer_no": "No, they are not doctors.",
+        "accepted_yes": [
+          "Yes, they are doctors",
+          "Yes, they're doctors"
+        ],
+        "accepted_no": [
+          "No, they are not doctors",
+          "No, they aren't doctors",
+          "No, they're not doctors",
+          "No, they'ren't doctors"
+        ]
+      },
+      {
+        "id": "Q05",
+        "prompt_ko_original": "그들은 선생님 인가요?",
+        "question_en": "Are they teachers?",
+        "accepted_questions": [
+          "Are they teachers?"
+        ],
+        "answer_yes": "Yes, they are teachers.",
+        "answer_no": "No, they are not teachers.",
+        "accepted_yes": [
+          "Yes, they are teachers",
+          "Yes, they're teachers"
+        ],
+        "accepted_no": [
+          "No, they are not teachers",
+          "No, they aren't teachers",
+          "No, they're not teachers",
+          "No, they'ren't teachers"
+        ]
+      },
+      {
+        "id": "Q06",
+        "prompt_ko_original": "당신의 어머니는 선생님 인가요?",
+        "question_en": "Is your mother a teacher?",
+        "accepted_questions": [
+          "Is your mother a teacher?"
+        ],
+        "answer_yes": "Yes, she is a teacher.",
+        "answer_no": "No, she is not a teacher.",
+        "accepted_yes": [
+          "Yes, she is a teacher",
+          "Yes, she's a teacher"
+        ],
+        "accepted_no": [
+          "No, she is not a teacher",
+          "No, she isn't a teacher",
+          "No, she's not a teacher",
+          "No, she'sn't a teacher"
+        ]
+      },
+      {
+        "id": "Q07",
+        "prompt_ko_original": "당신의 부모님은 변호사 인가요?",
+        "question_en": "Are your parents lawyers?",
+        "accepted_questions": [
+          "Are your parents lawyers?"
+        ],
+        "answer_yes": "Yes, they are lawyers.",
+        "answer_no": "No, they are not lawyers.",
+        "accepted_yes": [
+          "Yes, they are lawyers",
+          "Yes, they're lawyers"
+        ],
+        "accepted_no": [
+          "No, they are not lawyers",
+          "No, they aren't lawyers",
+          "No, they're not lawyers",
+          "No, they'ren't lawyers"
+        ]
+      },
+      {
+        "id": "Q08",
+        "prompt_ko_original": "당신의 친구들은 변호사 인가요?",
+        "question_en": "Are your friends lawyers?",
+        "accepted_questions": [
+          "Are your friends lawyers?"
+        ],
+        "answer_yes": "Yes, they are lawyers.",
+        "answer_no": "No, they are not lawyers.",
+        "accepted_yes": [
+          "Yes, they are lawyers",
+          "Yes, they're lawyers"
+        ],
+        "accepted_no": [
+          "No, they are not lawyers",
+          "No, they aren't lawyers",
+          "No, they're not lawyers",
+          "No, they'ren't lawyers"
+        ]
+      },
+      {
+        "id": "Q09",
+        "prompt_ko_original": "당신의 남동생은 변호사 인가요?",
+        "question_en": "Is your younger brother a lawyer?",
+        "accepted_questions": [
+          "Is your younger brother a lawyer?",
+          "Is your brother a lawyer?"
+        ],
+        "answer_yes": "Yes, he is a lawyer.",
+        "answer_no": "No, he is not a lawyer.",
+        "accepted_yes": [
+          "Yes, he is a lawyer",
+          "Yes, he's a lawyer"
+        ],
+        "accepted_no": [
+          "No, he is not a lawyer",
+          "No, he isn't a lawyer",
+          "No, he's not a lawyer",
+          "No, he'sn't a lawyer"
+        ]
+      },
+      {
+        "id": "Q10",
+        "prompt_ko_original": "그는 학생인가요?",
+        "question_en": "Is he a student?",
+        "accepted_questions": [
+          "Is he a student?"
+        ],
+        "answer_yes": "Yes, he is a student.",
+        "answer_no": "No, he is not a student.",
+        "accepted_yes": [
+          "Yes, he is a student",
+          "Yes, he's a student"
+        ],
+        "accepted_no": [
+          "No, he is not a student",
+          "No, he isn't a student",
+          "No, he's not a student",
+          "No, he'sn't a student"
+        ]
+      },
+      {
+        "id": "Q11",
+        "prompt_ko_original": "그는 회사원 인가요?",
+        "question_en": "Is he an office worker?",
+        "accepted_questions": [
+          "Is he an office worker?"
+        ],
+        "answer_yes": "Yes, he is an office worker.",
+        "answer_no": "No, he is not an office worker.",
+        "accepted_yes": [
+          "Yes, he is an office worker",
+          "Yes, he's an office worker"
+        ],
+        "accepted_no": [
+          "No, he is not an office worker",
+          "No, he isn't an office worker",
+          "No, he's not an office worker",
+          "No, he'sn't an office worker"
+        ]
+      },
+      {
+        "id": "Q12",
+        "prompt_ko_original": "당신의 부모님들은 의사 인가요?",
+        "question_en": "Are your parents doctors?",
+        "accepted_questions": [
+          "Are your parents doctors?"
+        ],
+        "answer_yes": "Yes, they are doctors.",
+        "answer_no": "No, they are not doctors.",
+        "accepted_yes": [
+          "Yes, they are doctors",
+          "Yes, they're doctors"
+        ],
+        "accepted_no": [
+          "No, they are not doctors",
+          "No, they aren't doctors",
+          "No, they're not doctors",
+          "No, they'ren't doctors"
+        ]
+      },
+      {
+        "id": "Q13",
+        "prompt_ko_original": "그들은 선생님 인가요?",
+        "question_en": "Are they teachers?",
+        "accepted_questions": [
+          "Are they teachers?"
+        ],
+        "answer_yes": "Yes, they are teachers.",
+        "answer_no": "No, they are not teachers.",
+        "accepted_yes": [
+          "Yes, they are teachers",
+          "Yes, they're teachers"
+        ],
+        "accepted_no": [
+          "No, they are not teachers",
+          "No, they aren't teachers",
+          "No, they're not teachers",
+          "No, they'ren't teachers"
+        ]
+      },
+      {
+        "id": "Q14",
+        "prompt_ko_original": "당신은 학생 인가요?",
+        "question_en": "Are you a student?",
+        "accepted_questions": [
+          "Are you a student?"
+        ],
+        "answer_yes": "Yes, I am a student.",
+        "answer_no": "No, I am not a student.",
+        "accepted_yes": [
+          "Yes, I am a student",
+          "Yes, I'm a student"
+        ],
+        "accepted_no": [
+          "No, I am not a student",
+          "No, I'm not a student"
+        ]
+      },
+      {
+        "id": "Q15",
+        "prompt_ko_original": "당신의 친구들은 학생 인가요?",
+        "question_en": "Are your friends students?",
+        "accepted_questions": [
+          "Are your friends students?"
+        ],
+        "answer_yes": "Yes, they are students.",
+        "answer_no": "No, they are not students.",
+        "accepted_yes": [
+          "Yes, they are students",
+          "Yes, they're students"
+        ],
+        "accepted_no": [
+          "No, they are not students",
+          "No, they aren't students",
+          "No, they're not students",
+          "No, they'ren't students"
+        ]
+      },
+      {
+        "id": "Q16",
+        "prompt_ko_original": "그들은 선생님 인가요?",
+        "question_en": "Are they teachers?",
+        "accepted_questions": [
+          "Are they teachers?"
+        ],
+        "answer_yes": "Yes, they are teachers.",
+        "answer_no": "No, they are not teachers.",
+        "accepted_yes": [
+          "Yes, they are teachers",
+          "Yes, they're teachers"
+        ],
+        "accepted_no": [
+          "No, they are not teachers",
+          "No, they aren't teachers",
+          "No, they're not teachers",
+          "No, they'ren't teachers"
+        ]
+      },
+      {
+        "id": "Q17",
+        "prompt_ko_original": "당신의 여동생은 선생님 인가요?",
+        "question_en": "Is your younger sister a teacher?",
+        "accepted_questions": [
+          "Is your younger sister a teacher?",
+          "Is your sister a teacher?"
+        ],
+        "answer_yes": "Yes, she is a teacher.",
+        "answer_no": "No, she is not a teacher.",
+        "accepted_yes": [
+          "Yes, she is a teacher",
+          "Yes, she's a teacher"
+        ],
+        "accepted_no": [
+          "No, she is not a teacher",
+          "No, she isn't a teacher",
+          "No, she's not a teacher",
+          "No, she'sn't a teacher"
+        ]
+      },
+      {
+        "id": "Q18",
+        "prompt_ko_original": "그녀는 간호사 인가요?",
+        "question_en": "Is she a nurse?",
+        "accepted_questions": [
+          "Is she a nurse?"
+        ],
+        "answer_yes": "Yes, she is a nurse.",
+        "answer_no": "No, she is not a nurse.",
+        "accepted_yes": [
+          "Yes, she is a nurse",
+          "Yes, she's a nurse"
+        ],
+        "accepted_no": [
+          "No, she is not a nurse",
+          "No, she isn't a nurse",
+          "No, she's not a nurse",
+          "No, she'sn't a nurse"
+        ]
+      }
+    ],
+    "prompt_field": "prompt_ko_original",
+    "answer_field": "question_en",
+    "feedback_duration_ms": 1000,
+    "after_correct": "advance_to_next_question",
+    "after_all": "answer_reaction"
+  },
+  "answer_reaction": {
+    "question_ids_in_order": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18"
+    ],
+    "prompt": "audio_only",
+    "show_question_text": false,
+    "require_full_sentence": true,
+    "accept_yes_or_no": true,
+    "check_against": [
+      "accepted_yes",
+      "accepted_no"
+    ],
+    "feedback_duration_ms": 1000
+  },
+  "validation_rules": {
+    "normalize": [
+      "case_insensitive",
+      "trim_whitespace",
+      "ignore_terminal_punctuation",
+      "normalize_curly_apostrophe",
+      "collapse_spaces"
+    ],
+    "accept_contractions": true,
+    "require_complete_subject_verb_adjective": true,
+    "yes_no_must_agree_with_verb_polarity": true,
+    "do_not_accept_short_yes_no_only": true
+  },
+  "notes": [
+    "교재 Day2 본문(파일 페이지 8~11)의 New Words 11개, Warming Up 10문장, 질문 만들기 18문항을 반영",
+    "질문 만들기 반복 문항은 교재 순서에 따라 유지",
+    "younger sister/brother(s)를 기본 정답으로 하되 sister/brother(s)도 허용",
+    "Day 1과 동일한 학습 UI/타이밍 규칙 사용",
+    "원문에 있는 fly는 직업 주제와 무관해 보여도 New Words 원문대로 유지",
+    "기존 Day 2 자료를 Day 3으로 이동."
+  ]
+}

@@ -9,7 +9,7 @@ const $ = id => document.getElementById(id), views = { setup:$('setup-view'), pr
 const QUEST_SESSION_SIZE=15;
 const ANSWER_REVIEW_DELAY=2500;
 const levelNames={beginner:'초급',intermediate:'중급',advanced:'고급',quest1:'Quest 1',quest2:'Quest 2'};
-const questMeta={Q01:{title:'Quest 1 — I AM READY!',subtitle:'be동사 현재형',level:'quest1'},Q02:{title:'Quest 2 — SIMPLE PRESENT!',subtitle:'일반동사 현재형',level:'quest2'}};
+const questMeta={Q01:{title:'Quest 1 — I AM READY!',subtitle:'be동사 현재형',level:'quest1'},Q02:{title:'Quest 2 — SIMPLE PRESENT!',subtitle:'일반동사 현재형',level:'quest2'},Q03:{title:'Day 2 — 장소 전치사 in/on/at',subtitle:'in · on · at으로 장소를 말해요.',level:'day2'},Q04:{title:'Day 3 — 직업과 관사 a/an',subtitle:'직업과 a/an을 정확히 말해요.',level:'day3'},Q05:{title:'Day 4 — 일반동사 현재형',subtitle:'do / don’t로 현재 행동을 말해요.',level:'day4'}};
 const state={allItems:[],quests:{},activeQuestId:'Q01',session:[],index:0,results:[],recognition:null,listening:false,recognitionStarting:false,active:false,paused:false,countdown:false,mode:'handsfree',questionToken:0,recognitionToken:0,resultReceived:false,speechResultReceived:false,practiceRetry:false,retries:0,ttsPlaying:false,startedAt:0,nextTimer:0,restartTimer:0,countdownTimer:0,listenTimer:0,listenInterval:0,listenDeadline:0,listenQuestionToken:0,listenTimedOut:false,recognitionError:false,lastSubmitAt:0,questMode:false,questScore:0,questTarget:20,questAttempt:0,questQuestionNumber:0,questFirstCorrect:0,questHintCorrect:0,questErrors:[],questStartedAt:0,questPausedAt:0,questPausedMs:0};
 const current=()=>state.session[state.index], shuffled=items=>[...items].sort(()=>Math.random()-.5), handsfree=()=>state.mode==='handsfree';
 const activeQuest=()=>state.quests[state.activeQuestId];

@@ -1,0 +1,696 @@
+{
+  "schema_version": "speed-speaking-lesson-v1",
+  "source": {
+    "file": "기초문법 2017.docx",
+    "section": "Level 1 / Day 1 후반 / 장소 표현",
+    "pages": "파일 페이지 5~8",
+    "preserve_korean": "영어 정답과 불일치할 때만 한국어 수정"
+  },
+  "lesson_id": "day-02",
+  "title": "Day 2 — 장소 전치사 in/on/at",
+  "sequence": [
+    "new_words",
+    "warming_up",
+    "question_translation",
+    "answer_reaction"
+  ],
+  "new_words": {
+    "items": [
+      {
+        "id": "NW01",
+        "word": "dog",
+        "ipa": "/dɔːɡ/",
+        "meaning_ko": "강아지",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW02",
+        "word": "bathroom",
+        "ipa": "/ˈbæθruːm/",
+        "meaning_ko": "화장실",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW03",
+        "word": "bag",
+        "ipa": "/bæɡ/",
+        "meaning_ko": "가방",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW04",
+        "word": "desk",
+        "ipa": "/desk/",
+        "meaning_ko": "책상",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW05",
+        "word": "father",
+        "ipa": "/ˈfɑːðər/",
+        "meaning_ko": "아버지",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW06",
+        "word": "home",
+        "ipa": "/hoʊm/",
+        "meaning_ko": "집",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW07",
+        "word": "at work",
+        "ipa": "/æt wɝːk/",
+        "meaning_ko": "직장에",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW08",
+        "word": "café",
+        "ipa": "/kæˈfeɪ/",
+        "meaning_ko": "카페",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW09",
+        "word": "subway",
+        "ipa": "/ˈsʌbweɪ/",
+        "meaning_ko": "지하철",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW10",
+        "word": "school",
+        "ipa": "/skuːl/",
+        "meaning_ko": "학교",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW11",
+        "word": "love",
+        "ipa": "/lʌv/",
+        "meaning_ko": "사랑",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW12",
+        "word": "library",
+        "ipa": "/ˈlaɪbreri/",
+        "meaning_ko": "도서관",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW13",
+        "word": "sofa",
+        "ipa": "/ˈsoʊfə/",
+        "meaning_ko": "소파",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW14",
+        "word": "class",
+        "ipa": "/klæs/",
+        "meaning_ko": "수업",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW15",
+        "word": "textbook",
+        "ipa": "/ˈtekstbʊk/",
+        "meaning_ko": "교재",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW16",
+        "word": "parents",
+        "ipa": "/ˈperənts/",
+        "meaning_ko": "부모님",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW17",
+        "word": "pocket",
+        "ipa": "/ˈpɑːkɪt/",
+        "meaning_ko": "주머니",
+        "repeat_count": 2
+      }
+    ],
+    "timing_ms": {
+      "initial_display": 500,
+      "meaning_reveal_after_first_audio": 1000,
+      "meaning_reveal_after_second_audio": 1000
+    },
+    "per_word_flow": [
+      "word_and_ipa_only",
+      "wait_500ms",
+      "show_repeat_prompt_and_speak",
+      "wait_1000ms_then_show_meaning_right",
+      "hide_meaning",
+      "show_repeat_prompt_and_speak",
+      "wait_1000ms_then_show_meaning_right",
+      "next_word"
+    ],
+    "speech_text_field": "word"
+  },
+  "warming_up": {
+    "items": [
+      {
+        "id": "W01",
+        "prompt_ko_original": "저의 강아지는 있어요 제 방 안에.",
+        "answer": "My dog is in my room.",
+        "accepted_answers": [
+          "My dog is in my room."
+        ]
+      },
+      {
+        "id": "W02",
+        "prompt_ko_original": "그것은 없어요 화장실 안에.",
+        "answer": "It is not in the bathroom.",
+        "accepted_answers": [
+          "It is not in the bathroom."
+        ]
+      },
+      {
+        "id": "W03",
+        "prompt_ko_original": "저의 핸드폰은 있어요 제 가방 안에.",
+        "answer": "My cell phone is in my bag.",
+        "accepted_answers": [
+          "My cell phone is in my bag."
+        ]
+      },
+      {
+        "id": "W04",
+        "prompt_ko_original": "그것은 없어요 책상 위에.",
+        "answer": "It is not on the desk.",
+        "accepted_answers": [
+          "It is not on the desk."
+        ]
+      },
+      {
+        "id": "W05",
+        "prompt_ko_original": "당신의 아버지는 있나요 집에?",
+        "answer": "Is your father at home?",
+        "accepted_answers": [
+          "Is your father at home?"
+        ]
+      },
+      {
+        "id": "W06",
+        "prompt_ko_original": "아니요, 그는 없어요 집에.",
+        "answer": "No, he is not at home.",
+        "accepted_answers": [
+          "No, he is not at home."
+        ]
+      },
+      {
+        "id": "W07",
+        "prompt_ko_original": "그는 있나요 일하는 곳에?",
+        "answer": "Is he at work?",
+        "accepted_answers": [
+          "Is he at work?"
+        ]
+      },
+      {
+        "id": "W08",
+        "prompt_ko_original": "네, 그는 있어요 일하는 곳에.",
+        "answer": "Yes, he is at work.",
+        "accepted_answers": [
+          "Yes, he is at work."
+        ]
+      },
+      {
+        "id": "W09",
+        "prompt_ko_original": "당신의 어머니는 있나요 카페에?",
+        "answer": "Is your mother at a café?",
+        "accepted_answers": [
+          "Is your mother at a café?"
+        ]
+      },
+      {
+        "id": "W10",
+        "prompt_ko_original": "네, 그녀는 있어요 카페에.",
+        "answer": "Yes, she is at a café.",
+        "accepted_answers": [
+          "Yes, she is at a café."
+        ]
+      }
+    ],
+    "input_modes": [
+      "typing",
+      "speech"
+    ],
+    "feedback": "brief"
+  },
+  "question_translation": {
+    "items": [
+      {
+        "id": "Q01",
+        "prompt_ko_original": "당신의 책은 책상위에 있나요?",
+        "question_en": "Is your book on the desk?",
+        "accepted_questions": [
+          "Is your book on the desk?"
+        ],
+        "answer_yes": "Yes, it is on the desk.",
+        "answer_no": "No, it is not on the desk.",
+        "accepted_yes": [
+          "Yes, it is on the desk."
+        ],
+        "accepted_no": [
+          "No, it is not on the desk."
+        ]
+      },
+      {
+        "id": "Q02",
+        "prompt_ko_original": "그것은 바닥에 있나요?",
+        "question_en": "Is it on the floor?",
+        "accepted_questions": [
+          "Is it on the floor?"
+        ],
+        "answer_yes": "Yes, it is on the floor.",
+        "answer_no": "No, it is not on the floor.",
+        "accepted_yes": [
+          "Yes, it is on the floor."
+        ],
+        "accepted_no": [
+          "No, it is not on the floor."
+        ]
+      },
+      {
+        "id": "Q03",
+        "prompt_ko_original": "당신의 아버지는 버스에 있나요?",
+        "question_en": "Is your father on a bus?",
+        "accepted_questions": [
+          "Is your father on a bus?"
+        ],
+        "answer_yes": "Yes, he is on a bus.",
+        "answer_no": "No, he is not on a bus.",
+        "accepted_yes": [
+          "Yes, he is on a bus."
+        ],
+        "accepted_no": [
+          "No, he is not on a bus."
+        ]
+      },
+      {
+        "id": "Q04",
+        "prompt_ko_original": "그는 지하철에 있나요?",
+        "question_en": "Is he on the subway?",
+        "accepted_questions": [
+          "Is he on the subway?"
+        ],
+        "answer_yes": "Yes, he is on the subway.",
+        "answer_no": "No, he is not on the subway.",
+        "accepted_yes": [
+          "Yes, he is on the subway."
+        ],
+        "accepted_no": [
+          "No, he is not on the subway."
+        ]
+      },
+      {
+        "id": "Q05",
+        "prompt_ko_original": "당신의 아버지는 그의 차 안에 있나요?",
+        "question_en": "Is your father in his car?",
+        "accepted_questions": [
+          "Is your father in his car?"
+        ],
+        "answer_yes": "Yes, he is in his car.",
+        "answer_no": "No, he is not in his car.",
+        "accepted_yes": [
+          "Yes, he is in his car."
+        ],
+        "accepted_no": [
+          "No, he is not in his car."
+        ]
+      },
+      {
+        "id": "Q06",
+        "prompt_ko_original": "그는 그의 방안에 있나요?",
+        "question_en": "Is he in his room?",
+        "accepted_questions": [
+          "Is he in his room?"
+        ],
+        "answer_yes": "Yes, he is in his room.",
+        "answer_no": "No, he is not in his room.",
+        "accepted_yes": [
+          "Yes, he is in his room."
+        ],
+        "accepted_no": [
+          "No, he is not in his room."
+        ]
+      },
+      {
+        "id": "Q07",
+        "prompt_ko_original": "당신은 학교에 다니나요?",
+        "question_en": "Are you in school?",
+        "accepted_questions": [
+          "Are you in school?"
+        ],
+        "answer_yes": "Yes, I am in school.",
+        "answer_no": "No, I am not in school.",
+        "accepted_yes": [
+          "Yes, I am in school."
+        ],
+        "accepted_no": [
+          "No, I am not in school."
+        ]
+      },
+      {
+        "id": "Q08",
+        "prompt_ko_original": "당신은 사랑에 빠져 있나요?",
+        "question_en": "Are you in love?",
+        "accepted_questions": [
+          "Are you in love?"
+        ],
+        "answer_yes": "Yes, I am in love.",
+        "answer_no": "No, I am not in love.",
+        "accepted_yes": [
+          "Yes, I am in love."
+        ],
+        "accepted_no": [
+          "No, I am not in love."
+        ]
+      },
+      {
+        "id": "Q09",
+        "prompt_ko_original": "당신의 어머니는 회사에 있나요?",
+        "question_en": "Is your mother at work?",
+        "accepted_questions": [
+          "Is your mother at work?"
+        ],
+        "answer_yes": "Yes, she is at work.",
+        "answer_no": "No, she is not at work.",
+        "accepted_yes": [
+          "Yes, she is at work."
+        ],
+        "accepted_no": [
+          "No, she is not at work."
+        ]
+      },
+      {
+        "id": "Q10",
+        "prompt_ko_original": "그녀는 카페에 있나요?",
+        "question_en": "Is she at a café?",
+        "accepted_questions": [
+          "Is she at a café?"
+        ],
+        "answer_yes": "Yes, she is at a café.",
+        "answer_no": "No, she is not at a café.",
+        "accepted_yes": [
+          "Yes, she is at a café."
+        ],
+        "accepted_no": [
+          "No, she is not at a café."
+        ]
+      },
+      {
+        "id": "Q11",
+        "prompt_ko_original": "당신의 남동생은 도서관에 있나요?",
+        "question_en": "Is your younger brother at a library?",
+        "accepted_questions": [
+          "Is your younger brother at a library?",
+          "Is your brother at a library?"
+        ],
+        "answer_yes": "Yes, he is at a library.",
+        "answer_no": "No, he is not at a library.",
+        "accepted_yes": [
+          "Yes, he is at a library."
+        ],
+        "accepted_no": [
+          "No, he is not at a library."
+        ]
+      },
+      {
+        "id": "Q12",
+        "prompt_ko_original": "그는 집에 있나요?",
+        "question_en": "Is he at home?",
+        "accepted_questions": [
+          "Is he at home?"
+        ],
+        "answer_yes": "Yes, he is at home.",
+        "answer_no": "No, he is not at home.",
+        "accepted_yes": [
+          "Yes, he is at home."
+        ],
+        "accepted_no": [
+          "No, he is not at home."
+        ]
+      },
+      {
+        "id": "Q13",
+        "prompt_ko_original": "당신은 있나요 존의 수업에?",
+        "question_en": "Are you in John’s class?",
+        "accepted_questions": [
+          "Are you in John’s class?"
+        ],
+        "answer_yes": "Yes, I am in his class.",
+        "answer_no": "No, I am not in his class.",
+        "accepted_yes": [
+          "Yes, I am in his class."
+        ],
+        "accepted_no": [
+          "No, I am not in his class."
+        ]
+      },
+      {
+        "id": "Q14",
+        "prompt_ko_original": "당신의 교재는 있나요 당신의 가방 안에?",
+        "question_en": "Is your textbook in your bag?",
+        "accepted_questions": [
+          "Is your textbook in your bag?"
+        ],
+        "answer_yes": "Yes, it is in my bag.",
+        "answer_no": "No, it is not in my bag.",
+        "accepted_yes": [
+          "Yes, it is in my bag."
+        ],
+        "accepted_no": [
+          "No, it is not in my bag."
+        ]
+      },
+      {
+        "id": "Q15",
+        "prompt_ko_original": "그것은 있나요 당신의 손 안에?",
+        "question_en": "Is it in your hand?",
+        "accepted_questions": [
+          "Is it in your hand?"
+        ],
+        "answer_yes": "Yes, it is in my hand.",
+        "answer_no": "No, it is not in my hand.",
+        "accepted_yes": [
+          "Yes, it is in my hand."
+        ],
+        "accepted_no": [
+          "No, it is not in my hand."
+        ]
+      },
+      {
+        "id": "Q16",
+        "prompt_ko_original": "당신의 여동생은 있나요 도서관에?",
+        "question_en": "Is your younger sister at a library?",
+        "accepted_questions": [
+          "Is your younger sister at a library?",
+          "Is your sister at a library?"
+        ],
+        "answer_yes": "Yes, she is at a library.",
+        "answer_no": "No, she is not at a library.",
+        "accepted_yes": [
+          "Yes, she is at a library."
+        ],
+        "accepted_no": [
+          "No, she is not at a library."
+        ]
+      },
+      {
+        "id": "Q17",
+        "prompt_ko_original": "그녀는 있나요 학교에?",
+        "question_en": "Is she at school?",
+        "accepted_questions": [
+          "Is she at school?"
+        ],
+        "answer_yes": "Yes, she is at school.",
+        "answer_no": "No, she is not at school.",
+        "accepted_yes": [
+          "Yes, she is at school."
+        ],
+        "accepted_no": [
+          "No, she is not at school."
+        ]
+      },
+      {
+        "id": "Q18",
+        "prompt_ko_original": "당신의 부모님들은 있나요 집에?",
+        "question_en": "Are your parents at home?",
+        "accepted_questions": [
+          "Are your parents at home?"
+        ],
+        "answer_yes": "Yes, they are at home.",
+        "answer_no": "No, they are not at home.",
+        "accepted_yes": [
+          "Yes, they are at home."
+        ],
+        "accepted_no": [
+          "No, they are not at home."
+        ]
+      },
+      {
+        "id": "Q19",
+        "prompt_ko_original": "그들은 있나요 서울에?",
+        "question_en": "Are they in Seoul?",
+        "accepted_questions": [
+          "Are they in Seoul?"
+        ],
+        "answer_yes": "Yes, they are in Seoul.",
+        "answer_no": "No, they are not in Seoul.",
+        "accepted_yes": [
+          "Yes, they are in Seoul."
+        ],
+        "accepted_no": [
+          "No, they are not in Seoul."
+        ]
+      },
+      {
+        "id": "Q20",
+        "prompt_ko_original": "당신의 핸드폰은 있나요 당신의 주머니 안에?",
+        "question_en": "Is your cell phone in your pocket?",
+        "accepted_questions": [
+          "Is your cell phone in your pocket?"
+        ],
+        "answer_yes": "Yes, it is in my pocket.",
+        "answer_no": "No, it is not in my pocket.",
+        "accepted_yes": [
+          "Yes, it is in my pocket."
+        ],
+        "accepted_no": [
+          "No, it is not in my pocket."
+        ]
+      }
+    ],
+    "prompt_field": "prompt_ko_original",
+    "answer_field": "question_en",
+    "feedback_duration_ms": 1000,
+    "after_correct": "advance_to_next_question",
+    "after_all": "answer_reaction",
+    "sections": [
+      {
+        "title": "with on",
+        "question_ids": [
+          "Q01",
+          "Q02",
+          "Q03",
+          "Q04"
+        ]
+      },
+      {
+        "title": "with in",
+        "question_ids": [
+          "Q05",
+          "Q06",
+          "Q07",
+          "Q08"
+        ]
+      },
+      {
+        "title": "with at",
+        "question_ids": [
+          "Q09",
+          "Q10",
+          "Q11",
+          "Q12"
+        ]
+      },
+      {
+        "title": "종합연습",
+        "question_ids": [
+          "Q13",
+          "Q14",
+          "Q15",
+          "Q16",
+          "Q17",
+          "Q18",
+          "Q19",
+          "Q20"
+        ]
+      }
+    ]
+  },
+  "answer_reaction": {
+    "question_ids_in_order": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19",
+      "Q20"
+    ],
+    "prompt": "audio_only",
+    "show_question_text": false,
+    "require_full_sentence": true,
+    "accept_yes_or_no": true,
+    "check_against": [
+      "accepted_yes",
+      "accepted_no"
+    ],
+    "feedback_duration_ms": 1000
+  },
+  "validation_rules": {
+    "normalize": [
+      "case_insensitive",
+      "trim_whitespace",
+      "ignore_terminal_punctuation",
+      "normalize_curly_apostrophe",
+      "collapse_spaces"
+    ],
+    "accept_contractions": true,
+    "require_complete_subject_verb_adjective": true,
+    "yes_no_must_agree_with_verb_polarity": true,
+    "do_not_accept_short_yes_no_only": true
+  },
+  "notes": [
+    "원본 New Words의 class 중복은 학습 효율을 위해 한 번만 표시; 원본 목록은 class 2회 포함",
+    "질문 만들기 12개 + 종합연습 8개를 질문 번역 및 답변 반응에 모두 포함",
+    "younger brother/sister를 기본 질문으로 하고 brother/sister를 허용",
+    "교재의 한글은 가능한 한 보존; 의미 일치에 필요한 수정만 수행",
+    "원본 Day 1 전치사 설명은 lesson_intro에 보존"
+  ],
+  "lesson_intro": {
+    "pattern": "I am at a hotel.",
+    "examples": [
+      "I am at a hotel.",
+      "You are at a hotel.",
+      "They are at a hotel.",
+      "We are at a hotel.",
+      "He is at a hotel.",
+      "She is at a hotel."
+    ],
+    "tips": {
+      "in": [
+        "in a room, Korea, class",
+        "A ball is in a bag."
+      ],
+      "on": [
+        "on the desk, the floor, the wall",
+        "A ball is on a chair."
+      ],
+      "at": [
+        "at a building, a café, the door",
+        "A ball is at the door."
+      ]
+    }
+  }
+}

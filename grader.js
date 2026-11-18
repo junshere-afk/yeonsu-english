@@ -16,7 +16,7 @@ const equivalentExpressions = [
 ];
 
 export function normalize(text = '') {
-  let normalized = text.toLowerCase().replace(/[’]/g, "'").replace(/[^a-z0-9'\s]/g, ' ');
+  let normalized = text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[’]/g, "'").replace(/[^a-z0-9'\s]/g, ' ');
   Object.entries(contractions).forEach(([short, long]) => { normalized = normalized.replace(new RegExp(`\\b${short}\\b`, 'g'), long); });
   normalized = normalized.replace(/\b([a-z]+)'s\s+(blue|small|busy|cheap|beautiful|tall|black|expensive|big|clean)\b/g, '$1 is $2');
   equivalentExpressions.forEach(([pattern, replacement]) => { normalized = normalized.replace(pattern, replacement); });

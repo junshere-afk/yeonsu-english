@@ -1,0 +1,1007 @@
+{
+  "schema_version": "speed-speaking-lesson-v1",
+  "source": {
+    "file": "기초문법 2017.docx",
+    "section": "Level 1 / 원본 Day 3 / 일반동사 현재형",
+    "pages": "파일 페이지 14~18",
+    "preserve_korean": "영어 정답과 불일치할 때만 한국어 수정"
+  },
+  "lesson_id": "day-04",
+  "title": "Day 4 — 일반동사 현재형 (I/you/we/they)",
+  "sequence": [
+    "new_words",
+    "warming_up",
+    "question_translation",
+    "answer_reaction"
+  ],
+  "new_words": {
+    "items": [
+      {
+        "id": "NW01",
+        "word": "wake up",
+        "ipa": "/weɪk ʌp/",
+        "meaning_ko": "일어나다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW02",
+        "word": "early",
+        "ipa": "/ˈɝːli/",
+        "meaning_ko": "일찍",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW03",
+        "word": "live",
+        "ipa": "/lɪv/",
+        "meaning_ko": "살다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW04",
+        "word": "together",
+        "ipa": "/təˈɡeðər/",
+        "meaning_ko": "함께",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW05",
+        "word": "many",
+        "ipa": "/ˈmeni/",
+        "meaning_ko": "많은",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW06",
+        "word": "friends",
+        "ipa": "/frendz/",
+        "meaning_ko": "친구들",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW07",
+        "word": "listen to",
+        "ipa": "/ˈlɪsən tuː/",
+        "meaning_ko": "듣다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW08",
+        "word": "the radio",
+        "ipa": "/ðə ˈreɪdioʊ/",
+        "meaning_ko": "라디오",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW09",
+        "word": "play",
+        "ipa": "/pleɪ/",
+        "meaning_ko": "연주하다, 하다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW10",
+        "word": "the guitar",
+        "ipa": "/ðə ɡɪˈtɑːr/",
+        "meaning_ko": "기타",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW11",
+        "word": "go to",
+        "ipa": "/ɡoʊ tuː/",
+        "meaning_ko": "~에 가다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW12",
+        "word": "call",
+        "ipa": "/kɔːl/",
+        "meaning_ko": "전화하다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW13",
+        "word": "do dishes",
+        "ipa": "/duː ˈdɪʃɪz/",
+        "meaning_ko": "설거지하다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW14",
+        "word": "need",
+        "ipa": "/niːd/",
+        "meaning_ko": "필요하다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW15",
+        "word": "have",
+        "ipa": "/hæv/",
+        "meaning_ko": "가지다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW16",
+        "word": "homework",
+        "ipa": "/ˈhoʊmwɝːk/",
+        "meaning_ko": "숙제",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW17",
+        "word": "speak",
+        "ipa": "/spiːk/",
+        "meaning_ko": "말하다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW18",
+        "word": "work",
+        "ipa": "/wɝːk/",
+        "meaning_ko": "일하다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW19",
+        "word": "read",
+        "ipa": "/riːd/",
+        "meaning_ko": "읽다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW20",
+        "word": "eat",
+        "ipa": "/iːt/",
+        "meaning_ko": "먹다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW21",
+        "word": "dinner",
+        "ipa": "/ˈdɪnər/",
+        "meaning_ko": "저녁 식사",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW22",
+        "word": "breakfast",
+        "ipa": "/ˈbrekfəst/",
+        "meaning_ko": "아침 식사",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW23",
+        "word": "Japanese",
+        "ipa": "/ˌdʒæpəˈniːz/",
+        "meaning_ko": "일본어",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW24",
+        "word": "study",
+        "ipa": "/ˈstʌdi/",
+        "meaning_ko": "공부하다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW25",
+        "word": "drink",
+        "ipa": "/drɪŋk/",
+        "meaning_ko": "마시다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW26",
+        "word": "beer",
+        "ipa": "/bɪr/",
+        "meaning_ko": "맥주",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW27",
+        "word": "basketball",
+        "ipa": "/ˈbæskɪtbɔːl/",
+        "meaning_ko": "농구",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW28",
+        "word": "go to school",
+        "ipa": "/ɡoʊ tuː skuːl/",
+        "meaning_ko": "학교에 다니다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW29",
+        "word": "on Saturdays",
+        "ipa": "/ɑːn ˈsætərdeɪz/",
+        "meaning_ko": "토요일마다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW30",
+        "word": "watch",
+        "ipa": "/wɑːtʃ/",
+        "meaning_ko": "보다",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW31",
+        "word": "until",
+        "ipa": "/ənˈtɪl/",
+        "meaning_ko": "~까지",
+        "repeat_count": 2
+      },
+      {
+        "id": "NW32",
+        "word": "6:00 P.M.",
+        "ipa": "/sɪks piː em/",
+        "meaning_ko": "오후 6시",
+        "repeat_count": 2
+      }
+    ],
+    "timing_ms": {
+      "initial_display": 500,
+      "meaning_reveal_after_first_audio": 1000,
+      "meaning_reveal_after_second_audio": 1000
+    },
+    "per_word_flow": [
+      "word_and_ipa_only",
+      "wait_500ms",
+      "show_repeat_prompt_and_speak",
+      "wait_1000ms_then_show_meaning_right",
+      "hide_meaning",
+      "show_repeat_prompt_and_speak",
+      "wait_1000ms_then_show_meaning_right",
+      "next_word"
+    ],
+    "speech_text_field": "word"
+  },
+  "warming_up": {
+    "items": [
+      {
+        "id": "W01",
+        "prompt_ko_original": "저는 좋아해요 아이스크림을.",
+        "answer": "I like ice cream.",
+        "accepted_answers": [
+          "I like ice cream."
+        ]
+      },
+      {
+        "id": "W02",
+        "prompt_ko_original": "저는 일어나지 않아요 일찍.",
+        "answer": "I don’t wake up early.",
+        "accepted_answers": [
+          "I don’t wake up early."
+        ]
+      },
+      {
+        "id": "W03",
+        "prompt_ko_original": "우리는 살지 않아요 같이.",
+        "answer": "We don’t live together.",
+        "accepted_answers": [
+          "We don’t live together."
+        ]
+      },
+      {
+        "id": "W04",
+        "prompt_ko_original": "우리는 있어요 많은 친구들이.",
+        "answer": "We have many friends.",
+        "accepted_answers": [
+          "We have many friends."
+        ]
+      },
+      {
+        "id": "W05",
+        "prompt_ko_original": "당신은 있나요 여동생이?",
+        "answer": "Do you have a younger sister?",
+        "accepted_answers": [
+          "Do you have a younger sister?",
+          "Do you have a sister?"
+        ]
+      },
+      {
+        "id": "W06",
+        "prompt_ko_original": "네, 저는 있어요 여동생이.",
+        "answer": "Yes, I have a younger sister.",
+        "accepted_answers": [
+          "Yes, I have a younger sister.",
+          "Yes, I have a sister."
+        ]
+      },
+      {
+        "id": "W07",
+        "prompt_ko_original": "당신은 라디오를 듣나요?",
+        "answer": "Do you listen to the radio?",
+        "accepted_answers": [
+          "Do you listen to the radio?"
+        ]
+      },
+      {
+        "id": "W08",
+        "prompt_ko_original": "아니요, 저는 안 들어요 라디오를.",
+        "answer": "No, I don’t listen to the radio.",
+        "accepted_answers": [
+          "No, I don’t listen to the radio."
+        ]
+      },
+      {
+        "id": "W09",
+        "prompt_ko_original": "당신은 치나요 기타를?",
+        "answer": "Do you play the guitar?",
+        "accepted_answers": [
+          "Do you play the guitar?"
+        ]
+      },
+      {
+        "id": "W10",
+        "prompt_ko_original": "네, 저는 쳐요 기타를.",
+        "answer": "Yes, I play the guitar.",
+        "accepted_answers": [
+          "Yes, I play the guitar."
+        ]
+      }
+    ],
+    "input_modes": [
+      "typing",
+      "speech"
+    ],
+    "feedback": "brief"
+  },
+  "question_translation": {
+    "items": [
+      {
+        "id": "Q01",
+        "prompt_ko_original": "당신은 도서관에 가나요?",
+        "question_en": "Do you go to the library?",
+        "accepted_questions": [
+          "Do you go to the library?"
+        ],
+        "answer_yes": "Yes, I go to the library.",
+        "answer_no": "No, I don’t go to the library.",
+        "accepted_yes": [
+          "Yes, I go to the library."
+        ],
+        "accepted_no": [
+          "No, I don’t go to the library."
+        ]
+      },
+      {
+        "id": "Q02",
+        "prompt_ko_original": "당신은 친구한테 전화 하나요?",
+        "question_en": "Do you call your friends?",
+        "accepted_questions": [
+          "Do you call your friends?"
+        ],
+        "answer_yes": "Yes, I call my friends.",
+        "answer_no": "No, I don’t call my friends.",
+        "accepted_yes": [
+          "Yes, I call my friends."
+        ],
+        "accepted_no": [
+          "No, I don’t call my friends."
+        ]
+      },
+      {
+        "id": "Q03",
+        "prompt_ko_original": "당신은 설거지 하나요?",
+        "question_en": "Do you do dishes?",
+        "accepted_questions": [
+          "Do you do dishes?"
+        ],
+        "answer_yes": "Yes, I do dishes.",
+        "answer_no": "No, I don’t do dishes.",
+        "accepted_yes": [
+          "Yes, I do dishes."
+        ],
+        "accepted_no": [
+          "No, I don’t do dishes."
+        ]
+      },
+      {
+        "id": "Q04",
+        "prompt_ko_original": "당신은 아이스크림 좋아하시나요?",
+        "question_en": "Do you like ice cream?",
+        "accepted_questions": [
+          "Do you like ice cream?"
+        ],
+        "answer_yes": "Yes, I like ice cream.",
+        "answer_no": "No, I don’t like ice cream.",
+        "accepted_yes": [
+          "Yes, I like ice cream."
+        ],
+        "accepted_no": [
+          "No, I don’t like ice cream."
+        ]
+      },
+      {
+        "id": "Q05",
+        "prompt_ko_original": "우리는 교재가 필요한가요?",
+        "question_en": "Do we need a textbook?",
+        "accepted_questions": [
+          "Do we need a textbook?"
+        ],
+        "answer_yes": "Yes, We need a textbook.",
+        "answer_no": "No, We don’t need a textbook.",
+        "accepted_yes": [
+          "Yes, We need a textbook."
+        ],
+        "accepted_no": [
+          "No, We don’t need a textbook."
+        ]
+      },
+      {
+        "id": "Q06",
+        "prompt_ko_original": "우리는 숙제가 있나요?",
+        "question_en": "Do we have homework?",
+        "accepted_questions": [
+          "Do we have homework?"
+        ],
+        "answer_yes": "Yes, We have homework.",
+        "answer_no": "No, We don’t have homework.",
+        "accepted_yes": [
+          "Yes, We have homework."
+        ],
+        "accepted_no": [
+          "No, We don’t have homework."
+        ]
+      },
+      {
+        "id": "Q07",
+        "prompt_ko_original": "우리는 영어를 말하나요?",
+        "question_en": "Do we speak English?",
+        "accepted_questions": [
+          "Do we speak English?"
+        ],
+        "answer_yes": "Yes, We speak English.",
+        "answer_no": "No, We don’t speak English.",
+        "accepted_yes": [
+          "Yes, We speak English."
+        ],
+        "accepted_no": [
+          "No, We don’t speak English."
+        ]
+      },
+      {
+        "id": "Q08",
+        "prompt_ko_original": "우리는 교실에 스피커가 있나요?",
+        "question_en": "Do we have speakers in class?",
+        "accepted_questions": [
+          "Do we have speakers in class?"
+        ],
+        "answer_yes": "Yes, We have speakers in class.",
+        "answer_no": "No, We don’t have speakers in class.",
+        "accepted_yes": [
+          "Yes, We have speakers in class."
+        ],
+        "accepted_no": [
+          "No, We don’t have speakers in class."
+        ]
+      },
+      {
+        "id": "Q09",
+        "prompt_ko_original": "당신의 친구들은 일하나요?",
+        "question_en": "Do your friends work?",
+        "accepted_questions": [
+          "Do your friends work?"
+        ],
+        "answer_yes": "Yes, They work.",
+        "answer_no": "No, They don’t work.",
+        "accepted_yes": [
+          "Yes, They work."
+        ],
+        "accepted_no": [
+          "No, They don’t work."
+        ]
+      },
+      {
+        "id": "Q10",
+        "prompt_ko_original": "그들은 많은 책을 읽나요?",
+        "question_en": "Do they read many books?",
+        "accepted_questions": [
+          "Do they read many books?"
+        ],
+        "answer_yes": "Yes, They read many books.",
+        "answer_no": "No, They don’t read many books.",
+        "accepted_yes": [
+          "Yes, They read many books."
+        ],
+        "accepted_no": [
+          "No, They don’t read many books."
+        ]
+      },
+      {
+        "id": "Q11",
+        "prompt_ko_original": "그들은 서울에 사나요?",
+        "question_en": "Do they live in Seoul?",
+        "accepted_questions": [
+          "Do they live in Seoul?"
+        ],
+        "answer_yes": "Yes, They live in Seoul.",
+        "answer_no": "No, They don’t live in Seoul.",
+        "accepted_yes": [
+          "Yes, They live in Seoul."
+        ],
+        "accepted_no": [
+          "No, They don’t live in Seoul."
+        ]
+      },
+      {
+        "id": "Q12",
+        "prompt_ko_original": "그들은 당신에게 전화하나요?",
+        "question_en": "Do they call you?",
+        "accepted_questions": [
+          "Do they call you?"
+        ],
+        "answer_yes": "Yes, They call you.",
+        "answer_no": "No, They don’t call you.",
+        "accepted_yes": [
+          "Yes, They call you."
+        ],
+        "accepted_no": [
+          "No, They don’t call you."
+        ]
+      },
+      {
+        "id": "Q13",
+        "prompt_ko_original": "당신의 부모님은 아침식사를 하시나요?",
+        "question_en": "Do your parents eat breakfast?",
+        "accepted_questions": [
+          "Do your parents eat breakfast?"
+        ],
+        "answer_yes": "Yes, They eat breakfast.",
+        "answer_no": "No, They don’t eat breakfast.",
+        "accepted_yes": [
+          "Yes, They eat breakfast."
+        ],
+        "accepted_no": [
+          "No, They don’t eat breakfast."
+        ]
+      },
+      {
+        "id": "Q14",
+        "prompt_ko_original": "그들은 같이 일하시나요?",
+        "question_en": "Do they work together?",
+        "accepted_questions": [
+          "Do they work together?"
+        ],
+        "answer_yes": "Yes, They work together.",
+        "answer_no": "No, They don’t work together.",
+        "accepted_yes": [
+          "Yes, They work together."
+        ],
+        "accepted_no": [
+          "No, They don’t work together."
+        ]
+      },
+      {
+        "id": "Q15",
+        "prompt_ko_original": "그들은 아이스크림을 먹나요?",
+        "question_en": "Do they eat ice cream?",
+        "accepted_questions": [
+          "Do they eat ice cream?"
+        ],
+        "answer_yes": "Yes, They eat ice cream.",
+        "answer_no": "No, They don’t eat ice cream.",
+        "accepted_yes": [
+          "Yes, They eat ice cream."
+        ],
+        "accepted_no": [
+          "No, They don’t eat ice cream."
+        ]
+      },
+      {
+        "id": "Q16",
+        "prompt_ko_original": "그들은 공부하나요?",
+        "question_en": "Do they study?",
+        "accepted_questions": [
+          "Do they study?"
+        ],
+        "answer_yes": "Yes, They study.",
+        "answer_no": "No, They don’t study.",
+        "accepted_yes": [
+          "Yes, They study."
+        ],
+        "accepted_no": [
+          "No, They don’t study."
+        ]
+      },
+      {
+        "id": "Q17",
+        "prompt_ko_original": "당신은 서울에서 일하나요?",
+        "question_en": "Do you work in Seoul?",
+        "accepted_questions": [
+          "Do you work in Seoul?"
+        ],
+        "answer_yes": "Yes, I work in Seoul.",
+        "answer_no": "No, I don’t work in Seoul.",
+        "accepted_yes": [
+          "Yes, I work in Seoul."
+        ],
+        "accepted_no": [
+          "No, I don’t work in Seoul."
+        ]
+      },
+      {
+        "id": "Q18",
+        "prompt_ko_original": "당신은 아침밥을 먹나요?",
+        "question_en": "Do you eat breakfast?",
+        "accepted_questions": [
+          "Do you eat breakfast?"
+        ],
+        "answer_yes": "Yes, I eat breakfast.",
+        "answer_no": "No, I don’t eat breakfast.",
+        "accepted_yes": [
+          "Yes, I eat breakfast."
+        ],
+        "accepted_no": [
+          "No, I don’t eat breakfast."
+        ]
+      },
+      {
+        "id": "Q19",
+        "prompt_ko_original": "당신은 영어를 공부하나요?",
+        "question_en": "Do you study English?",
+        "accepted_questions": [
+          "Do you study English?"
+        ],
+        "answer_yes": "Yes, I study English.",
+        "answer_no": "No, I don’t study English.",
+        "accepted_yes": [
+          "Yes, I study English."
+        ],
+        "accepted_no": [
+          "No, I don’t study English."
+        ]
+      },
+      {
+        "id": "Q20",
+        "prompt_ko_original": "당신은 맥주를 마시나요?",
+        "question_en": "Do you drink beer?",
+        "accepted_questions": [
+          "Do you drink beer?"
+        ],
+        "answer_yes": "Yes, I drink beer.",
+        "answer_no": "No, I don’t drink beer.",
+        "accepted_yes": [
+          "Yes, I drink beer."
+        ],
+        "accepted_no": [
+          "No, I don’t drink beer."
+        ]
+      },
+      {
+        "id": "Q21",
+        "prompt_ko_original": "당신은 남동생이 있나요?",
+        "question_en": "Do you have a younger brother?",
+        "accepted_questions": [
+          "Do you have a younger brother?",
+          "Do you have a brother?"
+        ],
+        "answer_yes": "Yes, I have a younger brother.",
+        "answer_no": "No, I don’t have a younger brother.",
+        "accepted_yes": [
+          "Yes, I have a younger brother.",
+          "Yes, I have a brother."
+        ],
+        "accepted_no": [
+          "No, I don’t have a younger brother.",
+          "No, I don’t have a brother."
+        ]
+      },
+      {
+        "id": "Q22",
+        "prompt_ko_original": "당신은 오후 6시까지 일하나요?",
+        "question_en": "Do you work until 6:00 P.M.?",
+        "accepted_questions": [
+          "Do you work until 6:00 P.M.?"
+        ],
+        "answer_yes": "Yes, I work until 6:00 P.M.",
+        "answer_no": "No, I don’t work until 6:00 P.M.",
+        "accepted_yes": [
+          "Yes, I work until 6:00 P.M."
+        ],
+        "accepted_no": [
+          "No, I don’t work until 6:00 P.M."
+        ]
+      },
+      {
+        "id": "Q23",
+        "prompt_ko_original": "우리교실에 컴퓨터가 있나요?",
+        "question_en": "Do we have a computer in class?",
+        "accepted_questions": [
+          "Do we have a computer in class?"
+        ],
+        "answer_yes": "Yes, We have a computer in class.",
+        "answer_no": "No, We don’t have a computer in class.",
+        "accepted_yes": [
+          "Yes, We have a computer in class."
+        ],
+        "accepted_no": [
+          "No, We don’t have a computer in class."
+        ]
+      },
+      {
+        "id": "Q24",
+        "prompt_ko_original": "우리는 함께 공부하나요?",
+        "question_en": "Do we study together?",
+        "accepted_questions": [
+          "Do we study together?"
+        ],
+        "answer_yes": "Yes, We study together.",
+        "answer_no": "No, We don’t study together.",
+        "accepted_yes": [
+          "Yes, We study together."
+        ],
+        "accepted_no": [
+          "No, We don’t study together."
+        ]
+      },
+      {
+        "id": "Q25",
+        "prompt_ko_original": "우리는 일본어를 공부하나요?",
+        "question_en": "Do we study Japanese?",
+        "accepted_questions": [
+          "Do we study Japanese?"
+        ],
+        "answer_yes": "Yes, We study Japanese.",
+        "answer_no": "No, We don’t study Japanese.",
+        "accepted_yes": [
+          "Yes, We study Japanese."
+        ],
+        "accepted_no": [
+          "No, We don’t study Japanese."
+        ]
+      },
+      {
+        "id": "Q26",
+        "prompt_ko_original": "우리는 학교에 다니나요?",
+        "question_en": "Do we go to school?",
+        "accepted_questions": [
+          "Do we go to school?"
+        ],
+        "answer_yes": "Yes, We go to school.",
+        "answer_no": "No, We don’t go to school.",
+        "accepted_yes": [
+          "Yes, We go to school."
+        ],
+        "accepted_no": [
+          "No, We don’t go to school."
+        ]
+      },
+      {
+        "id": "Q27",
+        "prompt_ko_original": "당신의 친구들은 농구를 하나요?",
+        "question_en": "Do your friends play basketball?",
+        "accepted_questions": [
+          "Do your friends play basketball?"
+        ],
+        "answer_yes": "Yes, They play basketball.",
+        "answer_no": "No, They don’t play basketball.",
+        "accepted_yes": [
+          "Yes, They play basketball."
+        ],
+        "accepted_no": [
+          "No, They don’t play basketball."
+        ]
+      },
+      {
+        "id": "Q28",
+        "prompt_ko_original": "그들은 학교에 다니나요?",
+        "question_en": "Do they go to school?",
+        "accepted_questions": [
+          "Do they go to school?"
+        ],
+        "answer_yes": "Yes, They go to school.",
+        "answer_no": "No, They don’t go to school.",
+        "accepted_yes": [
+          "Yes, They go to school."
+        ],
+        "accepted_no": [
+          "No, They don’t go to school."
+        ]
+      },
+      {
+        "id": "Q29",
+        "prompt_ko_original": "그들은 토요일에 일하나요?",
+        "question_en": "Do they work on Saturdays?",
+        "accepted_questions": [
+          "Do they work on Saturdays?"
+        ],
+        "answer_yes": "Yes, They work on Saturdays.",
+        "answer_no": "No, They don’t work on Saturdays.",
+        "accepted_yes": [
+          "Yes, They work on Saturdays."
+        ],
+        "accepted_no": [
+          "No, They don’t work on Saturdays."
+        ]
+      },
+      {
+        "id": "Q30",
+        "prompt_ko_original": "그들은 게임을 하나요?",
+        "question_en": "Do they play games?",
+        "accepted_questions": [
+          "Do they play games?"
+        ],
+        "answer_yes": "Yes, They play games.",
+        "answer_no": "No, They don’t play games.",
+        "accepted_yes": [
+          "Yes, They play games."
+        ],
+        "accepted_no": [
+          "No, They don’t play games."
+        ]
+      },
+      {
+        "id": "Q31",
+        "prompt_ko_original": "그들은 책을 읽나요?",
+        "question_en": "Do they read books?",
+        "accepted_questions": [
+          "Do they read books?"
+        ],
+        "answer_yes": "Yes, They read books.",
+        "answer_no": "No, They don’t read books.",
+        "accepted_yes": [
+          "Yes, They read books."
+        ],
+        "accepted_no": [
+          "No, They don’t read books."
+        ]
+      },
+      {
+        "id": "Q32",
+        "prompt_ko_original": "당신의 부모님은 일산에 사시나요?",
+        "question_en": "Do your parents live in Ilsan?",
+        "accepted_questions": [
+          "Do your parents live in Ilsan?"
+        ],
+        "answer_yes": "Yes, They live in Ilsan.",
+        "answer_no": "No, They don’t live in Ilsan.",
+        "accepted_yes": [
+          "Yes, They live in Ilsan."
+        ],
+        "accepted_no": [
+          "No, They don’t live in Ilsan."
+        ]
+      },
+      {
+        "id": "Q33",
+        "prompt_ko_original": "그들은 드라마를 보나요?",
+        "question_en": "Do they watch dramas?",
+        "accepted_questions": [
+          "Do they watch dramas?"
+        ],
+        "answer_yes": "Yes, They watch dramas.",
+        "answer_no": "No, They don’t watch dramas.",
+        "accepted_yes": [
+          "Yes, They watch dramas."
+        ],
+        "accepted_no": [
+          "No, They don’t watch dramas."
+        ]
+      },
+      {
+        "id": "Q34",
+        "prompt_ko_original": "그들은 라디오를 듣나요?",
+        "question_en": "Do they listen to the radio?",
+        "accepted_questions": [
+          "Do they listen to the radio?"
+        ],
+        "answer_yes": "Yes, They listen to the radio.",
+        "answer_no": "No, They don’t listen to the radio.",
+        "accepted_yes": [
+          "Yes, They listen to the radio."
+        ],
+        "accepted_no": [
+          "No, They don’t listen to the radio."
+        ]
+      },
+      {
+        "id": "Q35",
+        "prompt_ko_original": "그들은 저녁밥을 함께 먹나요?",
+        "question_en": "Do they eat dinner together?",
+        "accepted_questions": [
+          "Do they eat dinner together?"
+        ],
+        "answer_yes": "Yes, They eat dinner together.",
+        "answer_no": "No, They don’t eat dinner together.",
+        "accepted_yes": [
+          "Yes, They eat dinner together."
+        ],
+        "accepted_no": [
+          "No, They don’t eat dinner together."
+        ]
+      }
+    ],
+    "prompt_field": "prompt_ko_original",
+    "answer_field": "question_en",
+    "feedback_duration_ms": 1000,
+    "after_correct": "advance_to_next_question",
+    "after_all": "answer_reaction"
+  },
+  "answer_reaction": {
+    "question_ids_in_order": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19",
+      "Q20",
+      "Q21",
+      "Q22",
+      "Q23",
+      "Q24",
+      "Q25",
+      "Q26",
+      "Q27",
+      "Q28",
+      "Q29",
+      "Q30",
+      "Q31",
+      "Q32",
+      "Q33",
+      "Q34",
+      "Q35"
+    ],
+    "prompt": "audio_only",
+    "show_question_text": false,
+    "require_full_sentence": true,
+    "accept_yes_or_no": true,
+    "check_against": [
+      "accepted_yes",
+      "accepted_no"
+    ],
+    "feedback_duration_ms": 1000
+  },
+  "validation_rules": {
+    "normalize": [
+      "case_insensitive",
+      "trim_whitespace",
+      "ignore_terminal_punctuation",
+      "normalize_curly_apostrophe",
+      "collapse_spaces"
+    ],
+    "accept_contractions": true,
+    "require_complete_subject_verb_adjective": true,
+    "yes_no_must_agree_with_verb_polarity": true,
+    "do_not_accept_short_yes_no_only": true
+  },
+  "notes": [
+    "원본 Day 3을 앱 Day 4로 이동",
+    "교재의 질문 만들기와 영어로 말해보기 및 후반부 질문을 모두 포함",
+    "원본의 오탈자 don’t’ 및 No, we don’t have a class in class는 정답 문장에 사용하지 않음",
+    "교재의 동사 의미를 바꾸지 않음; 원본 질문 Do they eat ice cream?을 유지",
+    "여동생/남동생 기본 정답 younger sister/brother, sister/brother도 허용"
+  ],
+  "lesson_intro": {
+    "pattern": "I like ice cream.",
+    "examples": [
+      "I like ice cream.",
+      "You like ice cream.",
+      "They like ice cream.",
+      "We like ice cream."
+    ],
+    "tips": [
+      "You like ice cream.",
+      "Do you like ice cream?",
+      "Yes, I like ice cream.",
+      "No, I don’t like ice cream."
+    ]
+  }
+}

@@ -65,7 +65,7 @@
       <button class="primary start" id="start-btn">퀘스트 시작! <span>→</span></button><button id="sound-btn" class="link-button" hidden>🔊 사운드 ON</button>
       <details class="quest-settings"><summary>⚙ Quest 1 설정</summary><label>목표 점수 <input id="target-score-input" type="number" min="1" max="200" step="1" value="20" inputmode="numeric"> 점</label></details>
       <button class="link-button" id="review-btn">한 번 더 도전!</button>
-      <details class="menu-options"><summary>다른 퀘스트 선택</summary><div class="quest-options"><button type="button" class="quest-select" data-quest-select="Q01">Quest 1 · be동사 현재형</button><button type="button" class="quest-select" data-quest-select="Q02">Quest 2 · 일반동사 현재형</button></div></details>
+      <details class="menu-options"><summary>다른 퀘스트 선택</summary><div class="quest-options"><button type="button" class="quest-select" data-quest-select="Q01">Day 1 · Be동사 + 형용사</button><button type="button" class="quest-select" data-quest-select="Q03">Day 2 · 장소 전치사 in/on/at</button><button type="button" class="quest-select" data-quest-select="Q04">Day 3 · 직업과 관사 a/an</button><button type="button" class="quest-select" data-quest-select="Q05">Day 4 · 일반동사 현재형</button><button type="button" class="quest-select" data-quest-select="Q02">자유 연습 · 일반동사</button></div></details>
       <details class="menu-options"><summary>자유 연습</summary><p>기존 일상 문장 140개에서 15문장을 연습합니다.</p><button id="free-practice-btn" class="secondary">자유 연습 시작</button></details>
       <p id="support-note" class="support-note" hidden></p>
     </section>
@@ -103,5 +103,6 @@
   </main>
   <script type="module" src="app.js?v=answer-slow-15"></script>
   <script type="module" src="day1.js?v=answer-reaction-question-1"></script>
+  <script type="module" src="days2to4.js?v=day-lessons-1"></script>
 </body>
 </html>
